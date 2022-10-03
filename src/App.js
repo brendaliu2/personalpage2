@@ -1,39 +1,50 @@
 import './App.css';
 import NavBar from './Navbar/NavBar';
 import Projects from './Projects/Projects';
-import Resume from './Resume/Resume';
+import Experience from './Experience/Experience';
 import Skills from './Skills/Skills';
 import AboutMe from './AboutMe/AboutMe';
 import ContactMe from './ContactMe/ContactMe';
+import Home from './Home/Home';
+import projectsList from './Projects/projectsList'
+import skillsList from './Skills/skillsList';
 
 
 function App() {
+
   return (
     <div className="App">
       <header>
-        <NavBar />
+        <div>
+          <NavBar />
+        </div>
       </header>
-      <section id='home'>
-        <section id='about-me'>
+
+      <div id='home' className='body'>
+        <div id='home' className='body'>
+          <Home />
+        </div>
+
+        <div id='about-me' className='body'>
           <AboutMe />
-        </section>
+        </div>
 
-        <section id='resume'>
-          <Resume />
-        </section>
+        <div id='projects' className='body'>
+          <Projects projects={projectsList}/>
+        </div>
 
-        <section id='skills'>
-          <Skills />
-        </section>
+        <div id='skills' className='body'>
+          <Skills skills={skillsList}/>
+        </div>
 
-        <section id='projects'>
-          <Projects />
-        </section>
+        <div id='experience' className='body'>
+          <Experience />
+        </div>
 
-        <section id='contact-me'>
+        <div id='contact-me' className='body'>
           <ContactMe />
-        </section>
-      </section>
+        </div>
+      </div>
 
 
 

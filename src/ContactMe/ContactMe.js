@@ -1,9 +1,9 @@
 function ContactMe(){
   return(
     <div>
-      <h1>Contact Me</h1>
+      Contact Me
     </div>
   )
 }
 
-export default ContactMe;
+export default ContactMe

@@ -1,3 +1,32 @@
-#prof-pic{
-    max-width: 10em;
+.bio {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    position: relative;
+    padding: 10px;
+    margin: 2rem;
+}
+
+.prof-pic {
+  width: 30em;
+  position: relative;
+  padding: 10px;
+}
+
+@media(max-width: 1073px) {
+  .prof-pic {
+    width: 25em;
+  }
+}
+
+@media(max-width: 815px) {
+  .prof-pic {
+    width: 25em;
+  }
+}
+
+@media(max-width: 555px) {
+  .prof-pic {
+    width: 25em;
+  }
 }
