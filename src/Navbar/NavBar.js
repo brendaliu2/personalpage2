@@ -4,6 +4,17 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-scroll';
 import './NavBar.css';
 
+
+/** NavBar: displays navbar
+ *
+ * Props:
+ * - none
+ *
+ * State:
+ * - none
+ *
+ * App --> NavBar
+ */
 function NavBar() {
   return (
     <div>

@@ -1,6 +1,17 @@
-import ProfilePic from '../images/prof-pic.JPG';
+import ProfilePic from './prof-pic.JPG';
 import './AboutMe.css';
 
+
+/** AboutMe: displays profile pic and bio
+ *
+ * Props:
+ * - none
+ *
+ * State:
+ * - none
+ *
+ * App --> AboutMe
+ */
 function AboutMe() {
   return (
     <div id='about-me'>

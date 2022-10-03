@@ -30,7 +30,7 @@ const projects = [
   },
   {
     name: "Jobly",
-    deploy: "",
+    deploy: "https://bjl-jobly-frontend.surge.sh/",
     github: "https://github.com/brendaliu2/Jobly-Frontend",
     github2: "https://github.com/brendaliu2/Jobly-Backend",
     description: "Job Searching Site",
@@ -38,7 +38,7 @@ const projects = [
   },
   {
     name: "Warbler",
-    deploy: "",
+    deploy: "https://bjl-warbler.herokuapp.com/",
     github: "https://github.com/brendaliu2/warbler",
     github2: "",
     description: "Twitter Clone",

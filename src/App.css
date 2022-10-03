@@ -39,7 +39,7 @@
 
 .body{
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
   padding-left: 0;
   padding-right: 0;
   margin-left: -15px;
@@ -54,7 +54,3 @@
 #contact-me {
   height: 100vh;
 }
-
-/* #resume {
-  padding-top: 10px;
-} */

@@ -8,8 +8,18 @@ import ContactMe from './ContactMe/ContactMe';
 import Home from './Home/Home';
 import projectsList from './Projects/projectsList'
 import skillsList from './Skills/skillsList';
+import contacts from './ContactMe/contacts'
 
-
+/** Personal Site
+ *
+ * Props:
+ * - none
+ *
+ * State:
+ * - none
+ *
+ * App --> {Home, NavBar, AboutMe, Projects, Skills, Experience, ContactMe}
+ */
 function App() {
 
   return (
@@ -42,7 +52,7 @@ function App() {
         </div>
 
         <div id='contact-me' className='body'>
-          <ContactMe />
+          <ContactMe contacts={contacts}/>
         </div>
       </div>
 

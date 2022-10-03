@@ -1,3 +1,13 @@
+/** Home: displays homepage
+ *
+ * Props:
+ * - none
+ *
+ * State:
+ * - none
+ *
+ * App --> Home
+ */
 function Home() {
   return (
       <div className="container">

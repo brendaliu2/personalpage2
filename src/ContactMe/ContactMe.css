@@ -1,0 +1,42 @@
+.contact-link {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-link:hover,
+.hover-msg {
+  text-decoration: underline;
+  color: #fb8500;
+}
+
+.resume-link .hover-msg {
+  visibility: hidden;
+}
+
+.resume-link:hover .hover-msg {
+  visibility: visible;
+}
+
+.github-link .hover-msg {
+  visibility: hidden;
+}
+
+.github-link:hover .hover-msg {
+  visibility: visible;
+}
+
+.email-link .hover-msg {
+  visibility: hidden;
+}
+
+.email-link:hover .hover-msg {
+  visibility: visible;
+}
+
+.linkedin-link .hover-msg {
+  visibility: hidden;
+}
+
+.linkedin-link:hover .hover-msg {
+  visibility: visible;
+}

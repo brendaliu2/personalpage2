@@ -1,6 +1,8 @@
-.Card {
-    display: flex;
-    flex-direction: column;
+  .Card {
+    border: 1px solid black;
+    height: 500px;
+    width: auto;
+    /* background-color: blue; */
   }
 
   .Card-title {
@@ -14,4 +16,25 @@
 
   .Card-image {
     border-radius: 8px;
+  }
+
+  /* .col{
+    border: 1px solid red;
+  } */
+
+  .built-list {
+    text-align: start;
+    list-style: none;
+  }
+
+  .bi-gear-fill,
+  .bi-gear {
+    font-size: 1.2rem;
+    padding: 10px;
+  }
+
+  .bi-circle,
+  .bi-circle-fill {
+    font-size: .75rem;
+    padding: 5px;
   }

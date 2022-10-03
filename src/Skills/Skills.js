@@ -1,6 +1,16 @@
 import Skill from './Skill';
 import './Skills.css';
 
+/** Skills
+ *
+ * Props:
+ * - skills [icon, ....]
+ *
+ * State:
+ * - none
+ *
+ * App --> Skills --> Skill
+ */
 function Skills({ skills }) {
 
   const jasmineSVG = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jasmine/jasmine-plain-wordmark.svg';

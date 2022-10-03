@@ -20,8 +20,8 @@ function Projects({ projects }) {
   const currCard = projects[currCardIdx];
   const total = projects.length;
 
-  const leftIconHidden = (currCardIdx === 0) ? "hidden" : "";
-  const rightIconHidden = (currCardIdx === total - 1) ? "hidden" : "";
+  const leftIconHidden = (currCardIdx === 0) ? "d-none" : "";
+  const rightIconHidden = (currCardIdx === total - 1) ? "d-none" : "";
 
   //Increments currCardIdx state by 1
   function goForward() {
@@ -35,26 +35,36 @@ function Projects({ projects }) {
 
   return (
     <div className="Carousel">
-      <h1>Portfolio</h1>
+      <h1 className="title">Portfolio</h1>
       <div className="Carousel-main">
-        <i
-          className={`bi bi-arrow-left-circle ${leftIconHidden}`}
-          onClick={goBack}
-        />
-        <Project
-          name={currCard.name}
-          deploy={currCard.deploy}
-          github={currCard.github}
-          github2={currCard.github2}
-          description={currCard.src}
-          builtWith={currCard.builtWith}
-          currNum={currCardIdx + 1}
-          totalNum={total}
-        />
-        <i
-          className={`bi bi-arrow-right-circle ${rightIconHidden}`}
-          onClick={goForward}
-        />
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col">
+              <i
+                className={`bi bi-arrow-left-circle ${leftIconHidden}`}
+                onClick={goBack}
+              />
+            </div>
+            <div className="col-6">
+              <Project
+                name={currCard.name}
+                deploy={currCard.deploy}
+                github={currCard.github}
+                github2={currCard.github2}
+                description={currCard.description}
+                builtWith={currCard.builtWith}
+                currNum={currCardIdx + 1}
+                totalNum={total}
+              />
+            </div>
+            <div className="col">
+              <i
+                className={`bi bi-arrow-right-circle ${rightIconHidden}`}
+                onClick={goForward}
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
