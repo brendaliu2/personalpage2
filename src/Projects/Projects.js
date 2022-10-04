@@ -45,7 +45,7 @@ function Projects({ projects }) {
                 onClick={goBack}
               />
             </div>
-            <div className="col-6">
+            <div className="col-md-6 project-card">
               <Project
                 name={currCard.name}
                 deploy={currCard.deploy}

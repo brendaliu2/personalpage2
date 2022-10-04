@@ -1,36 +1,81 @@
 .Carousel-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .Carousel-main > i {
-    cursor: pointer;
-    margin: 10px;
-    color: #aaa;
-  }
+.Carousel-main>i {
+  cursor: pointer;
+  margin: 10px;
+  color: #aaa;
+}
 
-  .Carousel-main > i.hidden {
-    opacity: 0;
-    pointer-events: none;
-  }
+.Carousel-main>i.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
 
-  .Carousel-main > i:hover {
-    color: black;
-  }
+.Carousel-main>i:hover {
+  color: black;
+}
 
+/* .bi {
+  font-size: 35px
+} */
+
+.title {
+  margin-bottom: 40px;
+}
+
+.right-arrow {
+  text-align: left;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.bi {
+  font-size: 5rem;
+  /* height: 100px; */
+  /* bottom: 0; */
+  text-align: right;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+/* .bi:hover {
+  top: -10px;
+} */
+
+/* .right-arrow:hover{
+    top: -10px;
+  } */
+
+.left-arrow {
+  text-align: right;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+/*
+  .left-arrow:hover{
+    top: -10px;
+  } */
+
+/* @media(max-width: 1073px) {
   .bi {
-    font-size: 35px
+    font-size: 10rem;
   }
+} */
 
-  .title {
-    margin-bottom: 100px;
+@media(max-width: 815px) {
+  .bi {
+    font-size: 5rem;
   }
+}
 
-  .right-arrow{
-    text-align: left;
+@media(max-width: 555px) {
+  .bi {
+    font-size: 2rem;
   }
-
-  .left-arrow{
-    text-align: right;
-  }
+}

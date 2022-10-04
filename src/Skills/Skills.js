@@ -58,7 +58,7 @@ function Skills({ skills }) {
         <div className='row'>
           <div className='col'></div>
           <div className='col-md-5'>
-            <Accordion defaultActiveKey="0">
+            <Accordion defaultActiveKey="0" >
               <Accordion.Item eventKey="0">
                 <Accordion.Header>Languages</Accordion.Header>
                 <Accordion.Body>
@@ -68,8 +68,10 @@ function Skills({ skills }) {
               <Accordion.Item eventKey="1">
                 <Accordion.Header>Frameworks</Accordion.Header>
                 <Accordion.Body>
-                  {Frameworks.map((frame, i) => <div key={i} className="grid-item"><Skill detail={frame} /></div>)}
-                  <img src={jasmineSVG} className="grid-item jasmine" alt="jasmine icon" />
+                  <div className='container'>
+                    {Frameworks.map((frame, i) => <div key={i} className="row skill-row"><Skill detail={frame} /></div>)}
+                    {/* <img src={jasmineSVG} className="grid-item jasmine" alt="jasmine icon" /> */}
+                  </div>
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">

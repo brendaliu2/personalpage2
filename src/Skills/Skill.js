@@ -1,13 +1,17 @@
-import './Skill.css'
+import './Skill.css';
 
 function Skill({ detail }) {
-  const {name, icon} = detail;
+  const { name, icon } = detail;
 
   return (
-    <div>
-      <p>{name}</p>
-      <i class={icon}></i>
-    </div>
+    <>
+      <div className='col'>
+        <span>{name}</span>
+        {/* <i class={icon}></i> */}
+      </div>
+      {/* <div className='col'>
+      </div> */}
+    </>
   );
 }
 
