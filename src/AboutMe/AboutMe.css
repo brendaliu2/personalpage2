@@ -7,6 +7,11 @@
     margin: 2rem;
 }
 
+.big-text{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
 .prof-pic {
   width: 30em;
   position: relative;
@@ -36,6 +41,6 @@
     width: 25em;
   }
   .big-text{
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }

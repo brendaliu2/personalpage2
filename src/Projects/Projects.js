@@ -55,6 +55,7 @@ function Projects({ projects }) {
                 builtWith={currCard.builtWith}
                 currNum={currCardIdx + 1}
                 totalNum={total}
+                image = {currCard.image}
               />
             </div>
             <div className="col right-arrow">

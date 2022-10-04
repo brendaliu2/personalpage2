@@ -15,7 +15,7 @@ function ContactMe({ contacts }) {
   return (
     <div className="container">
       <div className="row m-5">
-        <h2 className="p-3">Contact me</h2>
+        <h2 className="p-3 contact-title">Contact me</h2>
       </div>
 
       <div className="row">

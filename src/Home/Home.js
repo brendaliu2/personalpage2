@@ -1,3 +1,4 @@
+import './Home.css'
 /** Home: displays homepage
  *
  * Props:
@@ -10,10 +11,10 @@
  */
 function Home() {
   return (
-      <div className="container text-right">
+      <div className="container home-box">
         <div className="row text-right">
           <div className="col text-right">
-            <h1>Brenda Liu</h1>
+            <h1 className="home-box">Brenda Liu</h1>
             <h3>I'm a full stack engineer.</h3>
           </div>
         </div>

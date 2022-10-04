@@ -19,7 +19,7 @@ import "./Project.css";
  * App --> Projects --> Project
  */
 
-function Project({ name, deploy, github, github2, description, builtWith, currNum, totalNum }) {
+function Project({ name, deploy, github, github2, description, builtWith, currNum, totalNum, image }) {
   const fill1 = currNum === 1 ? "-fill" : "";
   const fill2 = currNum === 2 ? "-fill" : "";
   const fill3 = currNum === 3 ? "-fill" : "";
@@ -48,6 +48,9 @@ function Project({ name, deploy, github, github2, description, builtWith, currNu
             {/* {github2 && <div className="col"><a href={github2} className='btn btn-secondary github'>Github</a></div>} */}
             {/* <div className="col-3"></div> */}
           </div>
+          {/* <div className="row">
+            <img src={image} alt='project' />
+          </div> */}
         </div>
 
         <div className="col built-with-col">
