@@ -17,16 +17,25 @@
   .prof-pic {
     width: 25em;
   }
+  .big-text{
+    font-size: 1.5rem;
+  }
 }
 
 @media(max-width: 815px) {
   .prof-pic {
     width: 25em;
   }
+  .big-text{
+    font-size: 1.5rem;
+  }
 }
 
 @media(max-width: 555px) {
   .prof-pic {
     width: 25em;
+  }
+  .big-text{
+    font-size: 2rem;
   }
 }

@@ -39,9 +39,9 @@ function Projects({ projects }) {
       <div className="Carousel-main">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col">
+            <div className="col left-arrow">
               <i
-                className={`bi bi-arrow-left-circle ${leftIconHidden}`}
+                className={`bi bi-arrow-left-circle-fill ${leftIconHidden}`}
                 onClick={goBack}
               />
             </div>
@@ -57,9 +57,9 @@ function Projects({ projects }) {
                 totalNum={total}
               />
             </div>
-            <div className="col">
+            <div className="col right-arrow">
               <i
-                className={`bi bi-arrow-right-circle ${rightIconHidden}`}
+                className={`bi bi-arrow-right-circle-fill ${rightIconHidden}`}
                 onClick={goForward}
               />
             </div>

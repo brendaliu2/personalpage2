@@ -26,3 +26,11 @@
   .title {
     margin-bottom: 100px;
   }
+
+  .right-arrow{
+    text-align: left;
+  }
+
+  .left-arrow{
+    text-align: right;
+  }

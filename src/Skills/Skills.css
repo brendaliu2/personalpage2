@@ -1,9 +1,9 @@
 .icon {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .icon-image {
-    height: 5rem;
+    height: 2rem;
 }
 
 .skills-heading {
@@ -33,7 +33,7 @@
 }
 
 .jasmine {
-    height: 75px;
+    height: 60px;
 }
 
 @media(max-width: 1073px) {

@@ -28,7 +28,7 @@ function Project({ name, deploy, github, github2, description, builtWith, currNu
     <div className="container">
 
 
-      <div className="Card row align-items-center">
+      <div className="Card row align-items-center shadow-lg p-3 mb-5 bg-white rounded">
 
         {/* <div className="col-1 empty"></div> */}
 
@@ -42,10 +42,8 @@ function Project({ name, deploy, github, github2, description, builtWith, currNu
           <div className="row">
             {/* <div className="col-3"></div> */}
             <div className="col">
-              <a href={deploy} className='btn btn-secondary deploy m-1'>Demo</a>
-            </div>
-            <div className="col">
-              <a href={github} className='btn btn-secondary github m-1'>Github</a>
+              <a href={deploy} className='btn btn-outline-secondary deploy m-1'>Demo</a>
+              <a href={github} className='btn btn-outline-secondary github m-1'>Github</a>
             </div>
             {/* {github2 && <div className="col"><a href={github2} className='btn btn-secondary github'>Github</a></div>} */}
             {/* <div className="col-3"></div> */}

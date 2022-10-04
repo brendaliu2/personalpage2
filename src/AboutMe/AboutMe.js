@@ -22,7 +22,7 @@ function AboutMe() {
           </div>
           <div className='col-md-12 col-lg-6'>
             <p className='bio'>
-              I am <b>Brenda Liu</b> and I am a full stack engineer.
+              <b className='big-text'>I am a full stack engineer.</b>
               <br />
               <br />
               I graduated from New York University with a BA in Economics, specialized in various points on the supply chain within the fashion industry.

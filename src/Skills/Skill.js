@@ -1,9 +1,12 @@
 import './Skill.css'
 
-function Skill({ skillIcon }) {
+function Skill({ detail }) {
+  const {name, icon} = detail;
+
   return (
     <div>
-      <i class={skillIcon}></i>
+      <p>{name}</p>
+      <i class={icon}></i>
     </div>
   );
 }

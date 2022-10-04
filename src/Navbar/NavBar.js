@@ -18,7 +18,7 @@ import './NavBar.css';
 function NavBar() {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" fixed='top' className='nav'>
+      <Navbar collapseOnSelect expand="lg" fixed='top'className='nav'>
         <Container>
           <Navbar.Brand href="#home" className='text-dark'>
             <Link activeClass="active" spy to="home">

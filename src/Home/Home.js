@@ -10,9 +10,9 @@
  */
 function Home() {
   return (
-      <div className="container">
-        <div className="row">
-          <div className="col">
+      <div className="container text-right">
+        <div className="row text-right">
+          <div className="col text-right">
             <h1>Brenda Liu</h1>
             <h3>I'm a full stack engineer.</h3>
           </div>
