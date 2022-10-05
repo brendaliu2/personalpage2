@@ -67,7 +67,6 @@ function Projects({ projects }) {
                 <button className="arrow-btn" disabled={leftIconHidden} onClick={goBack}>
                   <i
                     className={`bi bi-arrow-left-circle-fill`}
-
                   />
                 </button>
               </div>
@@ -75,7 +74,6 @@ function Projects({ projects }) {
                 <button className="arrow-btn" disabled={rightIconHidden} onClick={goForward}>
                 <i
                   className={`bi bi-arrow-right-circle-fill`}
-
                 />
                 </button>
               </div>

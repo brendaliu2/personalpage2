@@ -57,6 +57,9 @@
   color: white;
 }
 
-.bi {
+.bi-file-earmark-person,
+.bi-github,
+.bi-envelope,
+.bi-linkedin {
   font-size: 5em;
 }
