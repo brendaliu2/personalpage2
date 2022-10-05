@@ -36,7 +36,7 @@ function App() {
         </div>
 
         <div id='about-me' className='body'>
-          <AboutMe />
+          <AboutMe contacts={contacts}/>
         </div>
 
         <div id='projects' className='body'>

@@ -27,7 +27,7 @@ function Experience() {
         <div className='row align-items-center shadow-lg p-5 mb-5 rounded'>
           <div className='row mt-5'>
             <div className='col'>
-              <a href={BrendaResume} download className='btn btn-outline-secondary btn-lg download'> Download Resume </a>
+              <a href={BrendaResume} download className='btn btn-outline-secondary btn-lg download'> Download Resume <i class="bi bi-cloud-download-fill"></i></a>
             </div>
           </div>
           <div className="container py-5">

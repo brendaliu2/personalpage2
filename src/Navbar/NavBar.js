@@ -32,7 +32,7 @@ function NavBar() {
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav" className='bg-light'>
+          <Navbar.Collapse id="responsive-navbar-nav" className='bg-white'>
             <Nav className="me-auto">
             </Nav>
             <Nav>

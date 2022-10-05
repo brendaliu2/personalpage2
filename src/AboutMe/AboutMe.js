@@ -1,6 +1,6 @@
 import ProfilePic from './prof-pic.JPG';
 import './AboutMe.css';
-import newProfPic from '../images/newProfPic.png'
+import newProfPic from '../images/newProfPic.png';
 
 
 /** AboutMe: displays profile pic and bio
@@ -13,7 +13,8 @@ import newProfPic from '../images/newProfPic.png'
  *
  * App --> AboutMe
  */
-function AboutMe() {
+function AboutMe({ contacts }) {
+  const { email, github, linkedin, resume } = contacts;
   return (
     <div id='about-me'>
       <div className='container mt-5'>
@@ -39,6 +40,22 @@ function AboutMe() {
                   I hope to find an enviornment where I can keep developing my engineering skillset as well as apply some problem-solving skills from my previous positions.
                 </p>
               </div>
+            </div>
+            <div className='row'>
+              <div className='col'></div>
+              <div className="col-2 github-link">
+                <a href={github} className='contact-link hover'>
+                  <i class="bi bi-github"></i>
+                  <p className='hover-msg'>Github</p>
+                </a>
+              </div>
+              <div className="col-2 linkedin-link">
+                <a href={linkedin} className='contact-link hover'>
+                  <i class="bi bi-linkedin"></i>
+                  <p className='hover-msg'>LinkedIn</p>
+                </a>
+              </div>
+              <div className='col'></div>
             </div>
           </div>
         </div>
