@@ -6,7 +6,7 @@
 .contact-link:hover,
 .hover-msg {
   text-decoration: underline;
-  color: #fb8500;
+  color: #ff70a6;
 }
 
 .resume-link .hover-msg {
@@ -39,4 +39,24 @@
 
 .linkedin-link:hover .hover-msg {
   visibility: visible;
+}
+
+.contact-title{
+  position: relative;
+  margin-bottom: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  border: 1px solid black;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  z-index: 2;
+  background-color: #ff70a6;
+  border-radius: 30px;
+  box-shadow: 5px 10px black;
+  color: white;
+}
+
+.bi {
+  font-size: 5em;
 }

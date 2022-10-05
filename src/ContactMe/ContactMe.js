@@ -15,7 +15,11 @@ function ContactMe({ contacts }) {
   return (
     <div className="container">
       <div className="row m-5">
-        <h2 className="p-3 contact-title">Contact me</h2>
+        <div className='col'></div>
+        <div className='col-md-5'>
+          <h1 className="p-3 contact-title">Contact me</h1>
+        </div>
+        <div className='col'></div>
       </div>
 
       <div className="row">
