@@ -9,64 +9,68 @@ const skillsList = {
       icon: 'devicon-typescript-plain colored icon',
     },
     {
+      name: 'Python',
+      icon: 'devicon-python-plain icon',
+    },
+    {
       name: 'HTML',
-      icon: 'devicon-html5-plain-wordmark colored icon',
+      icon: 'devicon-html5-plain colored icon',
     },
     {
       name: 'CSS',
-      icon: 'devicon-css3-plain-wordmark colored icon',
+      icon: 'devicon-css3-plain colored icon',
     },
     {
       name: 'GraphQL',
-      icon: 'devicon-graphql-plain-wordmark colored icon',
-    },
-    {
-      name: 'Python',
-      icon: 'devicon-python-plain-wordmark icon',
+      icon: 'devicon-graphql-plain colored icon',
     },
   ],
   Frameworks: [
     {
       name: 'React',
-      icon: 'devicon-react-original-wordmark colored icon',
+      icon: 'devicon-react-original colored icon',
     },
     {
       name: 'Flask',
-      icon: 'devicon-flask-original-wordmark colored icon',
+      icon: 'devicon-flask-original colored icon',
     },
     {
       name: 'Express',
-      icon: 'devicon-express-original-wordmark colored icon',
+      icon: 'devicon-express-original colored icon',
     },
     {
       name: 'Bootstrap',
-      icon: 'devicon-bootstrap-plain-wordmark colored icon',
+      icon: 'devicon-bootstrap-plain colored icon',
     },
     {
       name: 'Jest',
       icon: 'devicon-jest-plain colored icon',
     },
+    {
+      name: 'Jasmine',
+      icon: 'devicon-jasmine-plain colored icon',
+    },
   ],
   Other: [
     {
       name: 'Node.js',
-      icon: 'devicon-nodejs-plain-wordmark colored icon',
+      icon: 'devicon-nodejs-plain colored icon',
     },
     {
       name: 'PostgreSQL',
-      icon: 'devicon-postgresql-plain-wordmark colored icon',
+      icon: 'devicon-postgresql-plain colored icon',
     },
     {
       name: 'jQuery',
-      icon: 'devicon-jquery-plain-wordmark colored icon',
+      icon: 'devicon-jquery-plain colored icon',
     },
     {
       name: 'AWS',
-      icon: 'devicon-amazonwebservices-plain-wordmark colored icon',
+      icon: 'devicon-amazonwebservices-plain colored icon',
     },
     {
       name: 'SQLAlchemy',
-      icon: 'devicon-sqlalchemy-original-wordmark colored icon',
+      icon: 'devicon-sqlalchemy-plain colored icon',
     },
   ]
 }
