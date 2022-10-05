@@ -5,6 +5,7 @@ import example from '../images/example.jpeg';
 import warbler from '../images/warbler.jpeg';
 import warbler2 from '../images/warbler2.jpeg';
 import jobly from '../images/jobly.jpeg';
+import personalsite from '../images/personalsite.jpeg'
 
 // const photos = [
 //   {
@@ -50,6 +51,15 @@ const projects = [
     description: "Twitter Clone",
     builtWith: ["Flask", "PostgreSQL", "SQL Alchemy", "Bootstrap", "Jinja", "WTForms", "bcrypt"],
     image: warbler2,
+  },
+  {
+    name: "Personal Site",
+    deploy: "",
+    github: "https://github.com/brendaliu2/personalpage2",
+    github2: "",
+    description: "This current site",
+    builtWith: ["React", "Bootstrap", "CSS"],
+    image: personalsite,
   },
 ];
 

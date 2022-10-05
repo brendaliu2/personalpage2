@@ -24,7 +24,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 function NavBar() {
   return (
     <div>
-      <Navbar expand="md" fixed='top'className='nav'>
+      <Navbar expand="md" fixed='top' className='nav'>
         <Container>
           <Navbar.Brand href="#home" className='text-dark'>
             <Link activeClass="active" spy to="home">
@@ -32,45 +32,45 @@ function NavBar() {
             </Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
+          <Navbar.Collapse id="responsive-navbar-nav" className='bg-light'>
             <Nav className="me-auto">
             </Nav>
             <Nav>
-    <Nav.Link href="">
-      <Link activeClass="active" spy to="home">
-        Home
-      </Link>
-    </Nav.Link>
-    <Nav.Link href="">
-      <Link activeClass="active" spy to="about-me">
-        About Me
-      </Link>
-    </Nav.Link>
-    <Nav.Link href="">
-      <Link activeClass="active" spy to="projects">
-        Projects
-      </Link>
-    </Nav.Link>
-    <Nav.Link href="">
-      <Link activeClass="active" spy to="skills">
-        Skills
-      </Link>
-    </Nav.Link>
-    <Nav.Link href="">
-      <Link activeClass="active" spy to="experience">
-        Experience
-      </Link>
-    </Nav.Link>
-    <Nav.Link href="">
-      <Link activeClass="active" spy to="contact-me">
-        Contact Me
-      </Link>
-    </Nav.Link>
+              <Nav.Link href="">
+                <Link activeClass="active" spy to="home">
+                  Home
+                </Link>
+              </Nav.Link>
+              <Nav.Link href="">
+                <Link activeClass="active" spy to="about-me">
+                  About Me
+                </Link>
+              </Nav.Link>
+              <Nav.Link href="">
+                <Link activeClass="active" spy to="projects">
+                  Projects
+                </Link>
+              </Nav.Link>
+              <Nav.Link href="">
+                <Link activeClass="active" spy to="skills">
+                  Skills
+                </Link>
+              </Nav.Link>
+              <Nav.Link href="">
+                <Link activeClass="active" spy to="experience">
+                  Experience
+                </Link>
+              </Nav.Link>
+              <Nav.Link href="">
+                <Link activeClass="active" spy to="contact-me">
+                  Contact Me
+                </Link>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      </div>
+    </div>
     // <>
     //   {['lg'].map((expand) => (
     //     <Navbar  collapseOnSelect={true} key='lg' bg="light" expand='lg' className="mb-3 nav">

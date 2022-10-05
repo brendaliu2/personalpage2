@@ -23,6 +23,7 @@ function Project({ name, deploy, github, github2, description, builtWith, currNu
   const fill1 = currNum === 1 ? "-fill" : "";
   const fill2 = currNum === 2 ? "-fill" : "";
   const fill3 = currNum === 3 ? "-fill" : "";
+  const fill4 = currNum === 4 ? "-fill" : "";
 
   return (
     <div className="container card-container">
@@ -79,6 +80,7 @@ function Project({ name, deploy, github, github2, description, builtWith, currNu
             <i className={`bi bi-circle${fill1}`}></i>
             <i className={`bi bi-circle${fill2}`}></i>
             <i className={`bi bi-circle${fill3}`}></i>
+            <i className={`bi bi-circle${fill4}`}></i>
           </small>
         </div>
       </div>

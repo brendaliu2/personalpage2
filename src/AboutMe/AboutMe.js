@@ -23,7 +23,7 @@ function AboutMe() {
           </div>
           <div className='col-md-12 col-lg-6'>
             <div className='row'>
-              <div className='col'>
+              <div className='col big-text-container'>
                 <b className='big-text'>I am a full stack developer.</b>
               </div>
             </div>

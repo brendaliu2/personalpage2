@@ -25,6 +25,11 @@
   color: white;
 }
 
+.big-text-container:hover,
+.prof-pic:hover {
+  transform: translate(1px, 1px);
+}
+
 
 .prof-pic {
   width: 30em;
