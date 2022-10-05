@@ -5,12 +5,8 @@ function Skill({ detail }) {
 
   return (
     <>
-      <div className='col'>
-        <span>{name}</span>
-        <i class={icon}></i>
-      </div>
-      {/* <div className='col'>
-      </div> */}
+      <i class={icon}></i>
+      <p className='skill-name'>{name}</p>
     </>
   );
 }

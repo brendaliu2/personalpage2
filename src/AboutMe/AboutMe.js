@@ -1,5 +1,6 @@
 import ProfilePic from './prof-pic.JPG';
 import './AboutMe.css';
+import newProfPic from '../images/newProfPic.png'
 
 
 /** AboutMe: displays profile pic and bio
@@ -18,8 +19,7 @@ function AboutMe() {
       <div className='container mt-5'>
         <div className='row align-items-center'>
           <div className='col-md-12 col-lg-6'>
-            <img src={ProfilePic} alt='profile-pic' className='prof-pic' />
-            <div className='image-bg'></div>
+            <img src={newProfPic} alt='profile-pic' className='prof-pic' />
           </div>
           <div className='col-md-12 col-lg-6'>
             <div className='row'>

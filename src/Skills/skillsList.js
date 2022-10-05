@@ -65,7 +65,7 @@ const skillsList = {
       icon: 'devicon-amazonwebservices-plain-wordmark colored icon',
     },
     {
-      name: 'SQL Alchemy',
+      name: 'SQLAlchemy',
       icon: 'devicon-sqlalchemy-original-wordmark colored icon',
     },
   ]

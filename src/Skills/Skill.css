@@ -1,0 +1,11 @@
+.skill-name{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 3px;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 3rem;
+}
