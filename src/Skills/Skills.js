@@ -51,9 +51,13 @@ function Skills({ skills }) {
           </div>
         </div>
       </div> */}
-      <div className='container'>
+      <div className='container-fluid'>
         <div className='row'>
-          <h1 className='skills-heading m-3 p-3'>Skills</h1>
+          <div className='col'></div>
+          <div className='col-md-5'>
+            <h1 className='skills-heading m-3 p-3'>Skills</h1>
+          </div>
+          <div className='col'></div>
         </div>
         <div className='row'>
           <div className='col'></div>
