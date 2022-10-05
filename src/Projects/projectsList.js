@@ -1,7 +1,10 @@
 // import image1 from "./image1.jpg";
 // import image2 from "./image2.jpg";
 // import image3 from "./image3.jpg";
-import joblyImage from './jobly-photo.jpg'
+import example from '../images/example.jpeg';
+import warbler from '../images/warbler.jpeg';
+import warbler2 from '../images/warbler2.jpeg';
+import jobly from '../images/jobly.jpeg';
 
 // const photos = [
 //   {
@@ -28,7 +31,7 @@ const projects = [
     github2: "",
     description: "Photo Editing App",
     builtWith: ["Flask", "Jinja", "Bootstrap"],
-    image: "",
+    image: example,
   },
   {
     name: "Jobly",
@@ -37,7 +40,7 @@ const projects = [
     github2: "https://github.com/brendaliu2/Jobly-Backend",
     description: "Job Searching Site",
     builtWith: ["React", "Express", "Node.js", "Bootstrap", "PostgreSQL", "JSON Schema", "JSON Web Token", "bcrypt"],
-    image: {joblyImage},
+    image: jobly,
   },
   {
     name: "Warbler",
@@ -46,8 +49,8 @@ const projects = [
     github2: "",
     description: "Twitter Clone",
     builtWith: ["Flask", "PostgreSQL", "SQL Alchemy", "Bootstrap", "Jinja", "WTForms", "bcrypt"],
-    image: "",
+    image: warbler2,
   },
-]
+];
 
 export default projects;

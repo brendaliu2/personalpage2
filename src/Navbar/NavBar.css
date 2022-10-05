@@ -12,6 +12,7 @@ nav {
 	padding: 0 1rem;
 	box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 11%);
 	font-family: 'Courier New', Courier, monospace;
+	margin-bottom: 500px;
 }
 
 .active{

@@ -1,4 +1,4 @@
-import './Home.css'
+import './Home.css';
 /** Home: displays homepage
  *
  * Props:
@@ -11,14 +11,14 @@ import './Home.css'
  */
 function Home() {
   return (
-      <div className="container">
-        <div className="row">
-          <div className="col">
-            <h1 className="home-box-name">Brenda Liu</h1>
-            <h3 className="home-box">I'm a full stack engineer.</h3>
-          </div>
+    <div className="container">
+      <div className="row justify-content-center">
+        <div className="col name">
+          <h1 className="home-box-name">Brenda Liu</h1>
+          <h3 className="home-box">I'm a full stack engineer.</h3>
         </div>
       </div>
+    </div>
   );
 }
 

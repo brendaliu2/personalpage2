@@ -24,7 +24,7 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 function NavBar() {
   return (
     <div>
-      <Navbar expand="lg" fixed='top'className='nav'>
+      <Navbar expand="md" fixed='top'className='nav'>
         <Container>
           <Navbar.Brand href="#home" className='text-dark'>
             <Link activeClass="active" spy to="home">

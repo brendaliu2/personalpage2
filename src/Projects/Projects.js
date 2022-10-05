@@ -20,8 +20,8 @@ function Projects({ projects }) {
   const currCard = projects[currCardIdx];
   const total = projects.length;
 
-  const leftIconHidden = (currCardIdx === 0) ? "d-none" : "";
-  const rightIconHidden = (currCardIdx === total - 1) ? "d-none" : "";
+  const leftIconHidden = (currCardIdx === 0) ? true : false;
+  const rightIconHidden = (currCardIdx === total - 1) ? true : false;
 
   //Increments currCardIdx state by 1
   function goForward() {
@@ -35,20 +35,20 @@ function Projects({ projects }) {
 
   return (
     <div className="Carousel">
-      <div className='container'>
+      <div className='container-fluid'>
         <div className='row title-row'>
           <div className="col"></div>
-          <div className='col'>
+          <div className='col-md-5'>
             <h1 className="title">Portfolio</h1>
           </div>
           <div className="col"></div>
         </div>
       </div>
       <div className="Carousel-main">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col"></div>
-            <div className="col-sm-12 col-md-10 col-lg-8 project-card">
+            <div className="col-xs-12 col-md-10 project-card">
               <Project
                 name={currCard.name}
                 deploy={currCard.deploy}
@@ -64,16 +64,20 @@ function Projects({ projects }) {
             <div className="col"></div>
             <div className="row">
               <div className="col left-arrow">
-                <i
-                  className={`bi bi-arrow-left-circle-fill ${leftIconHidden}`}
-                  onClick={goBack}
-                />
+                <button className="arrow-btn" disabled={leftIconHidden} onClick={goBack}>
+                  <i
+                    className={`bi bi-arrow-left-circle-fill`}
+
+                  />
+                </button>
               </div>
               <div className="col right-arrow">
+                <button className="arrow-btn" disabled={rightIconHidden} onClick={goForward}>
                 <i
-                  className={`bi bi-arrow-right-circle-fill ${rightIconHidden}`}
-                  onClick={goForward}
+                  className={`bi bi-arrow-right-circle-fill`}
+
                 />
+                </button>
               </div>
             </div>
           </div>
