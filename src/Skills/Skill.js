@@ -7,7 +7,7 @@ function Skill({ detail }) {
     <>
       <div className='col'>
         <span>{name}</span>
-        {/* <i class={icon}></i> */}
+        <i class={icon}></i>
       </div>
       {/* <div className='col'>
       </div> */}

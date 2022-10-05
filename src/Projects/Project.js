@@ -25,10 +25,10 @@ function Project({ name, deploy, github, github2, description, builtWith, currNu
   const fill3 = currNum === 3 ? "-fill" : "";
 
   return (
-    <div className="container">
+    <div className="container card-container">
 
 
-      <div className="Card row align-items-center shadow-lg p-3 mb-5 bg-white rounded">
+      <div className="Card row align-items-center shadow-lg p-3 mb-5 rounded">
 
         {/* <div className="col-1 empty"></div> */}
 
@@ -62,14 +62,16 @@ function Project({ name, deploy, github, github2, description, builtWith, currNu
 
         {/* <div className="col-1 empty"></div> */}
       </div>
-
-
-      <small className="Card-small">
-        {/* Project {currNum} of {totalNum}. */}
-        <i className={`bi bi-circle${fill1}`}></i>
-        <i className={`bi bi-circle${fill2}`}></i>
-        <i className={`bi bi-circle${fill3}`}></i>
-      </small>
+      <div className="row align-items-center">
+        <div className="col justify-content-center">
+          <small className="Card-small">
+            {/* Project {currNum} of {totalNum}. */}
+            <i className={`bi bi-circle${fill1}`}></i>
+            <i className={`bi bi-circle${fill2}`}></i>
+            <i className={`bi bi-circle${fill3}`}></i>
+          </small>
+        </div>
+      </div>
     </div>
   );
 }

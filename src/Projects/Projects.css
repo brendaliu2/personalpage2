@@ -1,3 +1,4 @@
+/**************************** Carousel *********************************/
 .Carousel-main {
   display: flex;
   align-items: center;
@@ -19,14 +20,29 @@
   color: black;
 }
 
-/* .bi {
-  font-size: 35px
-} */
+/**************************** Title *********************************/
 
 .title {
+  position: relative;
   margin-bottom: 40px;
   font-family: 'Courier New', Courier, monospace;
+  border: 1px solid black;
+  /* width: 20%; */
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  z-index: 2;
+  background-color: #ff70a6;
+  border-radius: 30px;
+  box-shadow: 5px 10px black;
+  color: white;
+}
 
+/**************************** Arrows *********************************/
+
+.bi {
+  font-size: 2rem;
 }
 
 .right-arrow {
@@ -36,48 +52,8 @@
   transition: top ease 0.5s;
 }
 
-.bi {
-  font-size: 5rem;
-  /* height: 100px; */
-  /* bottom: 0; */
-  text-align: right;
-  top: 0;
-  transition: top ease 0.5s;
-}
-
-/* .bi:hover {
-  top: -10px;
-} */
-
-/* .right-arrow:hover{
-    top: -10px;
-  } */
-
 .left-arrow {
   text-align: right;
   top: 0;
   transition: top ease 0.5s;
-}
-
-/*
-  .left-arrow:hover{
-    top: -10px;
-  } */
-
-/* @media(max-width: 1073px) {
-  .bi {
-    font-size: 10rem;
-  }
-} */
-
-@media(max-width: 815px) {
-  .bi {
-    font-size: 5rem;
-  }
-}
-
-@media(max-width: 555px) {
-  .bi {
-    font-size: 2rem;
-  }
 }

@@ -1,16 +1,17 @@
+  /*********************** Card ******************************/
+
   .Card {
-    border: 1px solid black;
+    border: 3px solid white;
     height: 500px;
     width: auto;
-    /* border-radius: 50%; */
-    /* position: relative;
-    top: 0;
-    transition: top ease 0.5s; */
+    background-color: #f8f7ff;
   }
 
-  /* .Card:hover{
-    top: -10px;
-  } */
+  .card-container{
+    position: relative;
+    margin-top: -40px;
+    z-index: 1;
+  }
 
   .Card-title {
     margin: 0 0 0.5em 0;
@@ -25,9 +26,7 @@
     border-radius: 8px;
   }
 
-  /* .col{
-    border: 1px solid red;
-  } */
+  /*********************** Card Content ******************************/
 
   .built-list {
     text-align: start;

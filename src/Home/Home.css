@@ -1,32 +1,10 @@
-/* .container-flex {
-    max-width: 1335px;
-    margin: 0 auto;
-    display: flex;
-}
-
-.grid-row{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.grid-col {
-    justify-content: center;
-} */
-
-
-/* .item {
-    height: 550px;
-    flex-basis: 20%;
-    -ms-flex: auto;
-    width: 259px;
-    position: relative;
-    padding: 10px;
-    box-sizing: border-box;
-} */
-
-.home-box{
+.home-box,
+.home-box-name {
     font-family: 'Courier New', Courier, monospace;
+    /* font-weight: bold; */
 
+}
+
+.home-box-name {
+    font-size: 5rem;
 }

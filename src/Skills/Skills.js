@@ -57,7 +57,7 @@ function Skills({ skills }) {
         </div>
         <div className='row'>
           <div className='col'></div>
-          <div className='col-md-5'>
+          <div className='col-md-10'>
             <Accordion defaultActiveKey="0" >
               <Accordion.Item eventKey="0">
                 <Accordion.Header>Languages</Accordion.Header>

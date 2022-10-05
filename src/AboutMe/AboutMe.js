@@ -22,15 +22,15 @@ function AboutMe() {
           </div>
           <div className='col-md-12 col-lg-6'>
             <p className='bio'>
-              <b className='big-text'>I am a full stack engineer.</b>
+              <b className='big-text'>I am a full stack developer.</b>
               <br />
               <br />
-              I graduated from New York University with a BA in Economics, specialized in various points on the supply chain within the fashion industry.
-              In my most recent role on the Merchandise Planning team at J.Crew, I worked with quarterly budgets, historical sales, and current trends to decide how much inventory to purchase for upcoming sales cycles.
+              I graduated from New York University with a BA in Economics, then went on to specialize in various points on the supply chain within the fashion industry.
+              In my most last role on the Merchandise Planning team at J.Crew, I worked with quarterly budgets, historical sales, and current trends to decide how much inventory to purchase for upcoming sales cycles.
               <br />
               <br />
-              More recently, I graduated from from Rithm School Full-Stack Engineering Bootcamp.
-              I hope to find an enviornment where I develop my engineering skillset and apply some problem-solving skills in my previous positions.
+              More recently, I graduated from Rithm School's Full-Stack Web Development Bootcamp.
+              I hope to find an enviornment where I can keep developing my engineering skillset as well as apply some problem-solving skills from my previous positions.
             </p>
           </div>
         </div>

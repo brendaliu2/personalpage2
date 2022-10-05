@@ -35,17 +35,20 @@ function Projects({ projects }) {
 
   return (
     <div className="Carousel">
-      <h1 className="title">Portfolio</h1>
+      <div className='container'>
+        <div className='row title-row'>
+          <div className="col"></div>
+          <div className='col'>
+            <h1 className="title">Portfolio</h1>
+          </div>
+          <div className="col"></div>
+        </div>
+      </div>
       <div className="Carousel-main">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col left-arrow">
-              <i
-                className={`bi bi-arrow-left-circle-fill ${leftIconHidden}`}
-                onClick={goBack}
-              />
-            </div>
-            <div className="col-md-6 project-card">
+            <div className="col"></div>
+            <div className="col-sm-12 col-md-10 col-lg-8 project-card">
               <Project
                 name={currCard.name}
                 deploy={currCard.deploy}
@@ -55,14 +58,23 @@ function Projects({ projects }) {
                 builtWith={currCard.builtWith}
                 currNum={currCardIdx + 1}
                 totalNum={total}
-                image = {currCard.image}
+                image={currCard.image}
               />
             </div>
-            <div className="col right-arrow">
-              <i
-                className={`bi bi-arrow-right-circle-fill ${rightIconHidden}`}
-                onClick={goForward}
-              />
+            <div className="col"></div>
+            <div className="row">
+              <div className="col left-arrow">
+                <i
+                  className={`bi bi-arrow-left-circle-fill ${leftIconHidden}`}
+                  onClick={goBack}
+                />
+              </div>
+              <div className="col right-arrow">
+                <i
+                  className={`bi bi-arrow-right-circle-fill ${rightIconHidden}`}
+                  onClick={goForward}
+                />
+              </div>
             </div>
           </div>
         </div>
