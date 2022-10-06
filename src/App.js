@@ -1,14 +1,16 @@
 import './App.css';
 import NavBar from './Navbar/NavBar';
+import { BrowserRouter } from "react-router-dom";
+import RoutesList from './RoutesList';
 import Projects from './Projects/Projects';
 import Experience from './Experience/Experience';
 import Skills from './Skills/Skills';
 import AboutMe from './AboutMe/AboutMe';
 import ContactMe from './ContactMe/ContactMe';
 import Home from './Home/Home';
-import projectsList from './Projects/projectsList'
+import projectsList from './Projects/projectsList';
 import skillsList from './Skills/skillsList';
-import contacts from './ContactMe/contacts'
+import contacts from './ContactMe/contacts';
 import Education from './Education/Education';
 
 /** Personal Site
@@ -64,6 +66,11 @@ function App() {
 
 
     </div>
+
+    // <BrowserRouter>
+    //   <NavBar />
+    //   <RoutesList />
+    // </BrowserRouter>
   );
 }
 

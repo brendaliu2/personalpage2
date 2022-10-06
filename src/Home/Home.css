@@ -7,20 +7,26 @@
     font-size: 5rem;
 }
 
-.home-item {
+/* .home-item {
     background-color: blue;
-}
+} */
 
-.home-page{
+/* .home-page{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-end;
+} */
+
+.name{
+    height: 100vh;
+    background: linear-gradient(white, #ff70a6);
+    /* width: 100px; */
+    background-color: #ff70a6;
 }
 
-/* .home-decor{
-    height: 100px;
-    width: 100px;
-    background-color: red;
-} */
+.home-arrow:hover{
+    color:#ff70a6;
+    transform: translate(1px, 1px);
+}

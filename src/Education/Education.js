@@ -10,23 +10,39 @@ import './Education.css';
  *
  * App --> Education
  */
- export default function Education() {
+export default function Education() {
   return (
     <>
       <div className='container'>
         <div className='row'>
+          <div className="col"></div>
+          <div className='col-md-5'>
+            <h1 className="title">Education</h1>
+          </div>
+          <div className="col"></div>
+        </div>
+      </div>
+      <div className='container education-box'>
+        <div className='row align-items-center shadow-lg p-5 rounded'>
           <div className='col'>
-            <div className='education-box'>
-              <h4>Rithm School</h4>
-              <h5>Full Stack Engineering Bootcamp</h5>
-              <h5>July 2022 - October 2022</h5>
+            <div className='row m-5'>
+              <div className='col-sm-12 col-md-6 mb-2'>
+                <div className='education-card'>
+                  <h4><b>Rithm School</b></h4>
+                  <h5><i>Full Stack Engineering Bootcamp</i></h5>
+                  <h5>July 2022 - October 2022</h5>
+                </div>
+              </div>
+              <div className='col-sm-12 col-md-6'>
+                <div className='education-card'>
+                  <h4><b>New York University</b></h4>
+                  <h5><i>B.A. Economics</i></h5>
+                  <h5>August 2013 - May 2017</h5>
+                </div>
+              </div>
             </div>
           </div>
-          <div className='col'>
-            <h4>New York University</h4>
-            <h5>B.A. Economics</h5>
-            <h5>August 2013 - May 2017</h5>
-          </div>
+
         </div>
       </div>
     </>

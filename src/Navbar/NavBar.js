@@ -29,17 +29,17 @@ export default function NavBar() {
             <Nav className="me-auto">
             </Nav>
             <Nav>
-              <Nav.Link href="">
+              <Nav.Link href="/">
                 <Link activeClass="active" spy to="home">
                   Home
                 </Link>
               </Nav.Link>
-              <Nav.Link href="">
+              <Nav.Link href="/about-me">
                 <Link activeClass="active" spy to="about-me">
                   About Me
                 </Link>
               </Nav.Link>
-              <Nav.Link href="">
+              <Nav.Link href="/projects">
                 <Link activeClass="active" spy to="projects">
                   Projects
                 </Link>

@@ -23,7 +23,7 @@ import './ContactMe.css';
       </div>
 
       <div className="row">
-        <div className='col-md-4'></div>
+        <div className='col-md-2'></div>
         <div className="col resume-link">
           <a href={resume} download className='contact-link hover'>
             <i class="bi bi-file-earmark-person"></i>
@@ -51,7 +51,7 @@ import './ContactMe.css';
             <p className='hover-msg'>LinkedIn</p>
           </a>
         </div>
-        <div className='col-md-4'></div>
+        <div className='col-md-2'></div>
       </div>
 
     </div>
