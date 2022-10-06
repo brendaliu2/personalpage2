@@ -13,7 +13,7 @@ import newProfPic from '../images/newProfPic.png';
  *
  * App --> AboutMe
  */
-function AboutMe({ contacts }) {
+ export default function AboutMe({ contacts }) {
   const { email, github, linkedin, resume } = contacts;
   return (
     <div id='about-me'>
@@ -63,5 +63,3 @@ function AboutMe({ contacts }) {
     </div >
   );
 }
-
-export default AboutMe;

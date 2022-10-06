@@ -1,6 +1,5 @@
 import "./Project.css";
 
-
 /** Card: displays project.
  *
  * Props:
@@ -12,14 +11,24 @@ import "./Project.css";
  * - builtWith: array [name, ...]
  * - currNum: integer for what project we're on
  * - totalNum: integer for how many projects are in the collection
+ * - image: string
  *
  * State:
  * - none
  *
  * App --> Projects --> Project
  */
-
-function Project({ name, deploy, github, github2, description, builtWith, currNum, totalNum, image }) {
+export default function Project({
+  name,
+  deploy,
+  github,
+  github2,
+  description,
+  builtWith,
+  currNum,
+  totalNum,
+  image
+}) {
   const fill1 = currNum === 1 ? "-fill" : "";
   const fill2 = currNum === 2 ? "-fill" : "";
   const fill3 = currNum === 3 ? "-fill" : "";
@@ -87,9 +96,3 @@ function Project({ name, deploy, github, github2, description, builtWith, currNu
     </div>
   );
 }
-
-export default Project;
-
-// <i class="bi bi-gear"></i>
-//<i class="bi bi-balloon"></i>
-//<i class="bi bi-circle"></i>

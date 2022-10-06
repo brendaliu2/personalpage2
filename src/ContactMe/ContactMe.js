@@ -9,7 +9,7 @@ import './ContactMe.css';
  *
  * App --> ContactMe
  */
-function ContactMe({ contacts }) {
+ export default function ContactMe({ contacts }) {
   const { email, github, linkedin, resume } = contacts;
 
   return (
@@ -57,5 +57,3 @@ function ContactMe({ contacts }) {
     </div>
   );
 }
-
-export default ContactMe;

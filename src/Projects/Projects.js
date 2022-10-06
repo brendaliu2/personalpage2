@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./Projects.css";
 import Project from "./Project";
 
-
 /** Carousel: displays projects and arrows to navigate through them
  *
  * Props:
@@ -13,8 +12,7 @@ import Project from "./Project";
  *
  * App --> Projects --> Project
  */
-
-function Projects({ projects }) {
+export default function Projects({ projects }) {
   const [currCardIdx, setCurrCardIdx] = useState(0);
 
   const currCard = projects[currCardIdx];
@@ -84,5 +82,3 @@ function Projects({ projects }) {
     </div>
   );
 }
-
-export default Projects;

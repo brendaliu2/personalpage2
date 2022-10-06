@@ -12,45 +12,11 @@ import Accordion from 'react-bootstrap/Accordion';
  *
  * App --> Skills --> Skill
  */
-function Skills({ skills }) {
+export default function Skills({ skills }) {
   const { Languages, Frameworks, Other } = skills;
-
-
-  // const jasmineSVG = 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jasmine/jasmine-plain-wordmark.svg';
-  const jasmineSVG = 'https://img.icons8.com/ios-filled/50/000000/typescript.png';
 
   return (
     <>
-      {/* <h1 className='skills-heading m-3 p-3'>Skills</h1>
-      <div id='skills' className='skill-container'>
-        <div className='grid-row'>
-          <div className='col lang'>
-            <div className='row lang-title-row'>
-              <h5 className='lang-title'>Languages</h5>
-            </div>
-            <div className='row lang-list'>
-              {Languages.map((lang, i) => <div key={i} className="grid-item"><Skill detail={lang} /></div>)}
-            </div>
-          </div>
-          <div className='col frame'>
-            <div className='row frame-title-row'>
-              <h5 className='frame-title'>Frameworks</h5>
-            </div>
-            <div className='row frame-list'>
-              {Frameworks.map((frame, i) => <div key={i} className="grid-item"><Skill detail={frame} /></div>)}
-              <img src={jasmineSVG} className="grid-item jasmine" alt="jasmine icon" />
-            </div>
-          </div>
-          <div className='col other'>
-            <div className='row other-title-row'>
-              <h5 className='other-title'>Other Technologies</h5>
-            </div>
-            <div className='row other-list'>
-              {Other.map((other, i) => <div key={i} className="grid-item"><Skill detail={other} /></div>)}
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div className='container-fluid'>
         <div className='row'>
           <div className='col'></div>
@@ -101,5 +67,3 @@ function Skills({ skills }) {
     </>
   );
 }
-
-export default Skills;

@@ -1,6 +1,16 @@
 import './Skill.css';
 
-function Skill({ detail }) {
+/** Skill
+ *
+ * Props:
+ * - detail {name, icon}
+ *
+ * State:
+ * - none
+ *
+ * App --> Skill --> Skill
+ */
+export default function Skill({ detail }) {
   const { name, icon } = detail;
 
   return (
@@ -10,5 +20,3 @@ function Skill({ detail }) {
     </>
   );
 }
-
-export default Skill;

@@ -11,7 +11,7 @@ import './Experience.css';
  *
  * App --> Experience
  */
-function Experience() {
+ export default function Experience() {
   return (
     <>
       <div className='container'>
@@ -95,5 +95,3 @@ function Experience() {
     </>
   );
 }
-
-export default Experience;

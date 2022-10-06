@@ -9,6 +9,7 @@ import Home from './Home/Home';
 import projectsList from './Projects/projectsList'
 import skillsList from './Skills/skillsList';
 import contacts from './ContactMe/contacts'
+import Education from './Education/Education';
 
 /** Personal Site
  *
@@ -49,6 +50,10 @@ function App() {
 
         <div id='experience' className='body'>
           <Experience />
+        </div>
+
+        <div id='education' className='body'>
+          <Education />
         </div>
 
         <div id='contact-me' className='body'>
