@@ -71,6 +71,12 @@
     border-radius: 20px;
   }
 
+  .demo-video {
+    height: 300px;
+    border: 2px dotted #ff70a6;
+    border-radius: 20px;
+  }
+
   /* @media(max-width: 1073px) {
     .demo-image {
       height: 200px;
@@ -78,13 +84,13 @@
   } */
 
   @media(max-width: 992px) {
-    .demo-image {
+    .demo-video {
       height: 200px;
     }
   }
 
   @media(max-width: 555px) {
-    .demo-image {
+    .demo-video {
       width: 300px;
     }
   }

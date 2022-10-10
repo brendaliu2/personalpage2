@@ -9,7 +9,7 @@ import './ContactMe.css';
  *
  * App --> ContactMe
  */
- export default function ContactMe({ contacts }) {
+export default function ContactMe({ contacts }) {
   const { email, github, linkedin, resume } = contacts;
 
   return (
@@ -22,8 +22,18 @@ import './ContactMe.css';
         <div className='col'></div>
       </div>
 
+      <div className="row m-5">
+        <div className='col'></div>
+        <div className='col-md-5'>
+          {/* <a href={email} className='contact-link hover'> */}
+            <h4 className="p-3"><i class="bi bi-envelope" style={{fontSize: '1em'}}></i> Email: brenda.liu24@gmail.com</h4>
+          {/* </a> */}
+        </div>
+        <div className='col'></div>
+      </div>
+
       <div className="row">
-        <div className='col-md-2'></div>
+        <div className='col-md-3'></div>
         <div className="col resume-link">
           <a href={resume} download className='contact-link hover'>
             <i class="bi bi-file-earmark-person"></i>
@@ -51,7 +61,7 @@ import './ContactMe.css';
             <p className='hover-msg'>LinkedIn</p>
           </a>
         </div>
-        <div className='col-md-2'></div>
+        <div className='col-md-3'></div>
       </div>
 
     </div>

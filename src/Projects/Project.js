@@ -1,4 +1,5 @@
 import "./Project.css";
+import { VideoPixly, VideoJobly, VideoWarbler, VideoSite, VideoBlueberry } from '../Video/Video';
 
 /** Card: displays project.
  *
@@ -27,12 +28,14 @@ export default function Project({
   builtWith,
   currNum,
   totalNum,
-  image
+  image,
+  video
 }) {
   const fill1 = currNum === 1 ? "-fill" : "";
   const fill2 = currNum === 2 ? "-fill" : "";
   const fill3 = currNum === 3 ? "-fill" : "";
   const fill4 = currNum === 4 ? "-fill" : "";
+  const fill5 = currNum === 5 ? "-fill" : "";
 
   return (
     <div className="container card-container">
@@ -67,7 +70,13 @@ export default function Project({
         <div className="col built-with-col">
           <div className="row mb-3">
             <div className="col justify-content-center">
-              <img src={image} alt='project' className="demo-image" />
+              {/* <img src={image} alt='project' className="demo-image" /> */}
+              { video === "PixlyDemo" ? <VideoPixly /> : null}
+              { video === "JoblyDemo" ? <VideoJobly /> : null}
+              { video === "WarblerDemo" ? <VideoWarbler /> : null}
+              { video === "PersonalSiteDemo" ? <VideoSite /> : null}
+              { video === "BlueberryDemo" ? <VideoBlueberry /> : null}
+              {/* <VideoJobly /> */}
             </div>
           </div>
           <div className="row mt-4">
@@ -85,11 +94,11 @@ export default function Project({
       <div className="row align-items-center">
         <div className="col justify-content-center">
           <small className="Card-small">
-            {/* Project {currNum} of {totalNum}. */}
             <i className={`bi bi-circle${fill1}`}></i>
             <i className={`bi bi-circle${fill2}`}></i>
             <i className={`bi bi-circle${fill3}`}></i>
             <i className={`bi bi-circle${fill4}`}></i>
+            <i className={`bi bi-circle${fill5}`}></i>
           </small>
         </div>
       </div>

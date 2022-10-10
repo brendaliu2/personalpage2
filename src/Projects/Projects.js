@@ -57,6 +57,7 @@ export default function Projects({ projects }) {
                 currNum={currCardIdx + 1}
                 totalNum={total}
                 image={currCard.image}
+                video={currCard.video}
               />
             </div>
             <div className="col"></div>

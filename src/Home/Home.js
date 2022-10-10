@@ -1,5 +1,6 @@
 import './Home.css';
 import { Link } from 'react-scroll';
+import Video from '../Video/Video';
 /** Home: displays homepage
  *
  * Props:
@@ -17,6 +18,7 @@ export default function Home() {
         <div className="col">
           <h1 className="home-box-name">Brenda Liu</h1>
           <h3 className="home-box">I'm a full stack engineer.</h3>
+          {/* <Video /> */}
         </div>
         {/* <div className='row gy-5 home-decor'></div>
         <div className='row gy-5 home-decor'></div> */}

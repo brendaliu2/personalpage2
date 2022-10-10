@@ -1,28 +1,9 @@
-// import image1 from "./image1.jpg";
-// import image2 from "./image2.jpg";
-// import image3 from "./image3.jpg";
 import example from '../images/example.jpeg';
 import warbler from '../images/warbler.jpeg';
 import warbler2 from '../images/warbler2.jpeg';
+import blueberry from '../images/blueberry.jpeg';
 import jobly from '../images/jobly.jpeg';
-import personalsite from '../images/personalsite.jpeg'
-
-// const photos = [
-//   {
-//     src: image1,
-//     caption: "Photo by Richard Pasquarella on Unsplash"
-//   },
-//   {
-//     src: image2,
-//     caption: "Photo by Pratik Patel on Unsplash"
-//   },
-//   {
-//     src: image3,
-//     caption: "Photo by Josh Post on Unsplash"
-//   }
-// ];
-
-// export default photos;
+import personalsite from '../images/personalsite.jpeg';
 
 const projects = [
   {
@@ -30,36 +11,50 @@ const projects = [
     deploy: "",
     github: "https://github.com/brendaliu2/Pixly",
     github2: "",
-    description: "Photo Editing App",
-    builtWith: ["Flask", "Jinja", "Bootstrap"],
+    description: "Photo Editing App with ability to upload photo, add filter (black/white, sepia, etc), and publish to page",
+    builtWith: ["Flask", "Pillow Library", "AWS", "Jinja", "Bootstrap"],
     image: example,
+    video: "PixlyDemo",
   },
   {
     name: "Jobly",
     deploy: "https://bjl-jobly-frontend.surge.sh/",
     github: "https://github.com/brendaliu2/Jobly-Frontend",
     github2: "https://github.com/brendaliu2/Jobly-Backend",
-    description: "Job Searching Site",
-    builtWith: ["React", "Express", "Node.js", "Bootstrap", "PostgreSQL", "JSON Schema", "JSON Web Token", "bcrypt"],
+    description: "Job Searching Site with ability to search for companies and apply to jobs.",
+    builtWith: ["React", "Express", "Node.js", "PostgreSQL", "JSON Schema", "bcrypt"],
     image: jobly,
+    video: "JoblyDemo",
   },
   {
     name: "Warbler",
     deploy: "https://bjl-warbler.herokuapp.com/",
     github: "https://github.com/brendaliu2/warbler",
     github2: "",
-    description: "Twitter Clone",
+    description: "Twitter Clone with ability to follow others, favorite posts, and add posts.",
     builtWith: ["Flask", "PostgreSQL", "SQL Alchemy", "Bootstrap", "Jinja", "WTForms", "bcrypt"],
     image: warbler2,
+    video: "WarblerDemo",
+  },
+  {
+    name: "Blueberry Timer",
+    deploy: "https://bjl-blueberry-timer.surge.sh/",
+    github: "https://github.com/brendaliu2/blueberryTimer",
+    github2: "",
+    description: "Pomodoro Timer Clone with ability to pause/reset timers, and choose own minutes 1-59 to set.",
+    builtWith: ["React", "CSS"],
+    image: blueberry,
+    video: "BlueberryDemo",
   },
   {
     name: "Personal Site",
-    deploy: "",
+    deploy: "https://bjl-personal-site.surge.sh/",
     github: "https://github.com/brendaliu2/personalpage2",
     github2: "",
     description: "This current site",
     builtWith: ["React", "Bootstrap", "CSS"],
     image: personalsite,
+    video: "PersonalSiteDemo",
   },
 ];
 
