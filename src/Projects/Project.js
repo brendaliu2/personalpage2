@@ -70,13 +70,12 @@ export default function Project({
         <div className="col built-with-col">
           <div className="row mb-3">
             <div className="col justify-content-center">
-              {/* <img src={image} alt='project' className="demo-image" /> */}
-              { video === "PixlyDemo" ? <VideoPixly /> : null}
+              <img src={image} alt='project' className="demo-image" />
+              {/* { video === "PixlyDemo" ? <VideoPixly /> : null}
               { video === "JoblyDemo" ? <VideoJobly /> : null}
               { video === "WarblerDemo" ? <VideoWarbler /> : null}
               { video === "PersonalSiteDemo" ? <VideoSite /> : null}
-              { video === "BlueberryDemo" ? <VideoBlueberry /> : null}
-              {/* <VideoJobly /> */}
+              { video === "BlueberryDemo" ? <VideoBlueberry /> : null} */}
             </div>
           </div>
           <div className="row mt-4">

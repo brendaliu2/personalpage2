@@ -1,9 +1,15 @@
-import example from '../images/example.jpeg';
-import warbler from '../images/warbler.jpeg';
-import warbler2 from '../images/warbler2.jpeg';
-import blueberry from '../images/blueberry.jpeg';
-import jobly from '../images/jobly.jpeg';
-import personalsite from '../images/personalsite.jpeg';
+// import example from '../images/example.jpeg';
+// import warbler from '../images/warbler.jpeg';
+// import warbler2 from '../images/warbler2.jpeg';
+// import blueberry from '../images/blueberry.jpeg';
+// import jobly from '../images/jobly.jpeg';
+// import personalsite from '../images/personalsite.jpeg';
+import PixlyDemoGif from '../demos/PixlyDemoGif.gif';
+import JoblyDemoGif from '../demos/JoblyDemoGif.gif';
+import WarblerDemoGif from '../demos/WarblerDemoGif.gif';
+import BlueberryDemoGif from '../demos/BlueberryDemoGif.gif';
+import PersonalSiteDemoGif from '../demos/PersonalSiteDemoGif.gif';
+
 
 const projects = [
   {
@@ -13,7 +19,7 @@ const projects = [
     github2: "",
     description: "Photo Editing App with ability to upload photo, add filter (black/white, sepia, etc), and publish to page",
     builtWith: ["Flask", "Pillow Library", "AWS", "Jinja", "Bootstrap"],
-    image: example,
+    image: PixlyDemoGif,
     video: "PixlyDemo",
   },
   {
@@ -23,7 +29,7 @@ const projects = [
     github2: "https://github.com/brendaliu2/Jobly-Backend",
     description: "Job Searching Site with ability to search for companies and apply to jobs.",
     builtWith: ["React", "Express", "Node.js", "PostgreSQL", "JSON Schema", "bcrypt"],
-    image: jobly,
+    image: JoblyDemoGif,
     video: "JoblyDemo",
   },
   {
@@ -33,7 +39,7 @@ const projects = [
     github2: "",
     description: "Twitter Clone with ability to follow others, favorite posts, and add posts.",
     builtWith: ["Flask", "PostgreSQL", "SQL Alchemy", "Bootstrap", "Jinja", "WTForms", "bcrypt"],
-    image: warbler2,
+    image: WarblerDemoGif,
     video: "WarblerDemo",
   },
   {
@@ -43,7 +49,7 @@ const projects = [
     github2: "",
     description: "Pomodoro Timer Clone with ability to pause/reset timers, and choose own minutes 1-59 to set.",
     builtWith: ["React", "CSS"],
-    image: blueberry,
+    image: BlueberryDemoGif,
     video: "BlueberryDemo",
   },
   {
@@ -53,7 +59,7 @@ const projects = [
     github2: "",
     description: "This current site",
     builtWith: ["React", "Bootstrap", "CSS"],
-    image: personalsite,
+    image: PersonalSiteDemoGif,
     video: "PersonalSiteDemo",
   },
 ];
