@@ -1,5 +1,6 @@
-import BrendaResume from './Brenda-Liu-Resume.pdf';
+
 import './Experience.css';
+
 
 /** Experience: displays experience
  *
@@ -11,7 +12,22 @@ import './Experience.css';
  *
  * App --> Experience
  */
- export default function Experience() {
+export default function Experience() {
+
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch('Brenda-Liu-Resume.pdf').then(response => {
+      response.blob().then(blob => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = 'Brenda-Liu-Resume.pdf';
+        alink.click();
+      });
+    });
+  };
   return (
     <>
       <div className='container'>
@@ -27,7 +43,7 @@ import './Experience.css';
         <div className='row align-items-center shadow-lg p-5 rounded'>
           <div className='row mt-5'>
             <div className='col'>
-              <a href={BrendaResume} download className='btn btn-outline-secondary btn-lg download'> Download Resume <i class="bi bi-cloud-download-fill"></i></a>
+              <button className='btn btn-outline-secondary btn-lg' onClick={onButtonClick}>Download Resume <i class="bi bi-cloud-download-fill"></i></button>
             </div>
           </div>
           <div className="container py-5">

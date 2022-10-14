@@ -10,7 +10,7 @@ import './ContactMe.css';
  * App --> ContactMe
  */
 export default function ContactMe({ contacts }) {
-  const { github, linkedin, resume } = contacts;
+  const { github, linkedin } = contacts;
 
   return (
     <div className="container">
@@ -30,7 +30,7 @@ export default function ContactMe({ contacts }) {
       <div className="row">
         <div className='col-md-3'></div>
         <div className="col resume-link">
-          <a href={resume} download className='contact-link hover'>
+          <a href={process.env.PUBLIC_URL + 'Brenda-Liu-Resume.pdf'} download className='contact-link hover'>
             <i class="bi bi-file-earmark-person"></i>
             <p className='hover-msg'>Download Resume</p>
           </a>
