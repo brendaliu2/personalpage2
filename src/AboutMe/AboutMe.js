@@ -21,7 +21,7 @@ export default function AboutMe({ contacts }) {
         <div className='row align-items-center'>
           <div className='col-md-12 col-lg-6'>
             <img src={newProfPic} alt='profile-pic' className='prof-pic' />
-            <h6 className="p-3"><i class="bi bi-envelope" style={{fontSize: '1em'}}></i> Email: brenda.liu24@gmail.com</h6>
+            {/* <h6 className="p-3"><i class="bi bi-envelope" style={{fontSize: '1em'}}></i> Email: brenda.liu24@gmail.com</h6> */}
           </div>
           <div className='col-md-12 col-lg-6'>
             <div className='row'>

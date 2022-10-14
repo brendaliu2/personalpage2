@@ -26,7 +26,7 @@ export default function ContactMe({ contacts }) {
         <div className='col'></div>
         <div className='col-md-5'>
           {/* <a href={email} className='contact-link hover'> */}
-            <h4 className="p-3"><i class="bi bi-envelope" style={{fontSize: '1em'}}></i> Email: brenda.liu24@gmail.com</h4>
+            {/* <h4 className="p-3"><i class="bi bi-envelope" style={{fontSize: '1em'}}></i> Email: brenda.liu24@gmail.com</h4> */}
           {/* </a> */}
         </div>
         <div className='col'></div>
@@ -48,12 +48,12 @@ export default function ContactMe({ contacts }) {
           </a>
         </div>
 
-        <div className="col email-link">
+        {/* <div className="col email-link">
           <a href={email} className='contact-link hover'>
             <i class="bi bi-envelope"></i>
             <p className='hover-msg'>Email</p>
           </a>
-        </div>
+        </div> */}
 
         <div className="col linkedin-link">
           <a href={linkedin} className='contact-link hover'>
