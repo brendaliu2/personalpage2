@@ -14,30 +14,32 @@ import newProfPic from '../images/newProfPic.png';
  * App --> AboutMe
  */
 export default function AboutMe({ contacts }) {
-  const { email, github, linkedin, resume } = contacts;
+  const { github, linkedin } = contacts;
   return (
     <div id='about-me'>
       <div className='container mt-5'>
         <div className='row align-items-center'>
           <div className='col-md-12 col-lg-6'>
             <img src={newProfPic} alt='profile-pic' className='prof-pic' />
-            {/* <h6 className="p-3"><i class="bi bi-envelope" style={{fontSize: '1em'}}></i> Email: brenda.liu24@gmail.com</h6> */}
           </div>
           <div className='col-md-12 col-lg-6'>
             <div className='row'>
               <div className='col big-text-container'>
-                <b className='big-text'>I am a full stack developer.</b>
+                <b className='big-text'>I am a full stack engineer.</b>
               </div>
             </div>
             <div className='row'>
               <div className='col'>
                 <p className='bio'>
                   <br />
-                  I graduated from New York University with a BA in Economics, then went on to specialize in various points of the supply chain within the fashion industry.
+                  <br />
+                  I graduated from New York University with a BA in Economics, and more recently, I graduated from Rithm School's Full-Stack Web Development Bootcamp.
+                  <br />
+                  <br />
+                  Prior to pivoting to the tech industy, I specialized in various points of the supply chain within the fashion industry.
                   In my last role on the Merchandise Planning team at J.Crew, I worked with quarterly budgets, historical sales, and current trends to decide how much inventory to purchase for upcoming sales cycles.
                   <br />
                   <br />
-                  More recently, I graduated from Rithm School's Full-Stack Web Development Bootcamp.
                   I hope to find an enviornment where I can keep developing my engineering skillset as well as apply some problem-solving skills from my previous positions.
                 </p>
               </div>

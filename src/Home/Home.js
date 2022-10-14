@@ -1,6 +1,5 @@
 import './Home.css';
 import { Link } from 'react-scroll';
-import Video from '../Video/Video';
 /** Home: displays homepage
  *
  * Props:

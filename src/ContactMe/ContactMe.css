@@ -26,14 +26,6 @@
   visibility: visible;
 }
 
-.email-link .hover-msg {
-  visibility: hidden;
-}
-
-.email-link:hover .hover-msg {
-  visibility: visible;
-}
-
 .linkedin-link .hover-msg {
   visibility: hidden;
 }
@@ -48,7 +40,7 @@
   font-family: 'Courier New', Courier, monospace;
   border: 1px solid black;
   text-align: center;
-  margin: 10px;
+  margin: 5px;
   padding: 10px;
   text-align: center;
   z-index: 2;
@@ -60,7 +52,6 @@
 
 .bi-file-earmark-person,
 .bi-github,
-.bi-envelope,
 .bi-linkedin {
   font-size: 5em;
 }

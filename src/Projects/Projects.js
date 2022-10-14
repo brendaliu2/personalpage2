@@ -51,13 +51,11 @@ export default function Projects({ projects }) {
                 name={currCard.name}
                 deploy={currCard.deploy}
                 github={currCard.github}
-                github2={currCard.github2}
                 description={currCard.description}
                 builtWith={currCard.builtWith}
                 currNum={currCardIdx + 1}
                 totalNum={total}
                 image={currCard.image}
-                video={currCard.video}
               />
             </div>
             <div className="col"></div>

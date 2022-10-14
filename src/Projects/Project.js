@@ -1,5 +1,4 @@
 import "./Project.css";
-import { VideoPixly, VideoJobly, VideoWarbler, VideoSite, VideoBlueberry } from '../Video/Video';
 
 /** Card: displays project.
  *
@@ -23,13 +22,11 @@ export default function Project({
   name,
   deploy,
   github,
-  github2,
   description,
   builtWith,
   currNum,
   totalNum,
   image,
-  video
 }) {
   const fill1 = currNum === 1 ? "-fill" : "";
   const fill2 = currNum === 2 ? "-fill" : "";
@@ -42,8 +39,6 @@ export default function Project({
 
       <div className="Card row align-items-center shadow-lg p-5 mb-5 rounded">
 
-        {/* <div className="col-1 empty"></div> */}
-
         <div className="col name-desc-link">
           <div className="row">
             <h4 className="Card-title">{name}</h4>
@@ -52,10 +47,6 @@ export default function Project({
             <p className="description">{description}</p>
           </div>
           <div className="row">
-            {/* <div className="col-3"></div> */}
-
-            {/* {github2 && <div className="col"><a href={github2} className='btn btn-secondary github'>Github</a></div>} */}
-            {/* <div className="col-3"></div> */}
           </div>
           <div className="row">
             <div className="col">
@@ -71,11 +62,6 @@ export default function Project({
           <div className="row mb-3">
             <div className="col justify-content-center">
               <img src={image} alt='project' className="demo-image" />
-              {/* { video === "PixlyDemo" ? <VideoPixly /> : null}
-              { video === "JoblyDemo" ? <VideoJobly /> : null}
-              { video === "WarblerDemo" ? <VideoWarbler /> : null}
-              { video === "PersonalSiteDemo" ? <VideoSite /> : null}
-              { video === "BlueberryDemo" ? <VideoBlueberry /> : null} */}
             </div>
           </div>
           <div className="row mt-4">
@@ -87,8 +73,6 @@ export default function Project({
           </div>
 
         </div>
-
-        {/* <div className="col-1 empty"></div> */}
       </div>
       <div className="row align-items-center">
         <div className="col justify-content-center">
