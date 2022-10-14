@@ -20,7 +20,7 @@ export default function NavBar() {
       <Navbar expand="md" fixed='top' className='nav'>
         <Container>
           <Navbar.Brand href="#home" className='text-dark'>
-            <Link activeClass="active" spy to="home">
+            <Link activeClass="active" spy to="about-me">
               Brenda Liu
             </Link>
           </Navbar.Brand>
@@ -30,36 +30,36 @@ export default function NavBar() {
             </Nav>
             <Nav>
               <Nav.Link href="/">
-                <Link activeClass="active" spy to="home">
+                <Link activeClass="active" spy to="about-me">
                   Home
                 </Link>
               </Nav.Link>
-              <Nav.Link href="/about-me">
+              {/* <Nav.Link href="/about-me">
                 <Link activeClass="active" spy to="about-me">
                   About Me
                 </Link>
-              </Nav.Link>
-              <Nav.Link href="/projects">
+              </Nav.Link> */}
+              <Nav.Link href="/">
                 <Link activeClass="active" spy to="projects">
                   Projects
                 </Link>
               </Nav.Link>
-              <Nav.Link href="">
+              <Nav.Link href="/">
                 <Link activeClass="active" spy to="skills">
                   Skills
                 </Link>
               </Nav.Link>
-              <Nav.Link href="">
+              <Nav.Link href="/">
                 <Link activeClass="active" spy to="experience">
                   Experience
                 </Link>
               </Nav.Link>
-              <Nav.Link href="">
+              <Nav.Link href="/">
                 <Link activeClass="active" spy to="education">
                   Education
                 </Link>
               </Nav.Link>
-              <Nav.Link href="">
+              <Nav.Link href="/">
                 <Link activeClass="active" spy to="contact-me">
                   Contact Me
                 </Link>

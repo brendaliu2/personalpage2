@@ -14,7 +14,7 @@ import PersonalSiteDemoGif from '../demos/PersonalSiteDemoGif.gif';
 const projects = [
   {
     name: "Pixly",
-    deploy: "",
+    deploy: "https://bjl-pixly.herokuapp.com/",
     github: "https://github.com/brendaliu2/Pixly",
     github2: "",
     description: "Photo Editing App with ability to upload photo, add filter (black/white, sepia, etc), and publish to page",

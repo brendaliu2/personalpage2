@@ -33,10 +33,10 @@ function App() {
         </div>
       </header>
 
-      <div id='home' className='body'>
-        <div id='home' className='body'>
+      {/* <div id='home' className='body'> */}
+        {/* <div id='home' className='body'>
           <Home />
-        </div>
+        </div> */}
 
         <div id='about-me' className='body'>
           <AboutMe contacts={contacts}/>
@@ -61,7 +61,7 @@ function App() {
         <div id='contact-me' className='body'>
           <ContactMe contacts={contacts}/>
         </div>
-      </div>
+      {/* </div> */}
 
 
 
