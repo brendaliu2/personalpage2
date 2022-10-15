@@ -45,8 +45,7 @@ export default function Projects({ projects }) {
       <div className="Carousel-main">
         <div className="container-fluid">
           <div className="row align-items-center">
-            <div className="col"></div>
-            <div className="col-xs-12 col-md-10 project-card">
+            <div className="col-xs-12 project-card">
               <Project
                 name={currCard.name}
                 deploy={currCard.deploy}
@@ -58,7 +57,6 @@ export default function Projects({ projects }) {
                 image={currCard.image}
               />
             </div>
-            <div className="col"></div>
             <div className="row">
               <div className="col left-arrow">
                 <button className="arrow-btn" disabled={leftIconHidden} onClick={goBack}>

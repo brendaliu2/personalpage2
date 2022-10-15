@@ -37,10 +37,10 @@ export default function Project({
   return (
     <div className="container card-container">
 
-      <div className="Card row align-items-center shadow-lg p-5 mb-5 rounded">
+      <div className="Card row align-items-center shadow-lg mb-5 rounded">
 
-        <div className="col name-desc-link">
-          <div className="row">
+        <div className="col-sm-12 col-lg-6 name-desc-link">
+          <div className="row pt-5">
             <h4 className="Card-title">{name}</h4>
           </div>
           <div className="row">
@@ -58,8 +58,8 @@ export default function Project({
           </div>
         </div>
 
-        <div className="col built-with-col">
-          <div className="row mb-3">
+        <div className="col-sm-12 col-lg-6 built-with-col">
+          <div className="row mb-3 pad-adjust">
             <div className="col justify-content-center">
               <img src={image} alt='project' className="demo-image" />
             </div>
