@@ -25,7 +25,7 @@ export default function Education() {
       <div className='container education-box'>
         <div className='row align-items-center shadow-lg p-5 rounded'>
           <div className='col'>
-            <div className='row m-5'>
+            <div className='row pt-2'>
               <div className='col-sm-12 col-md-6 mb-2'>
                 <div className='education-card'>
                   <h4><b>Rithm School</b></h4>

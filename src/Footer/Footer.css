@@ -1,5 +1,8 @@
-.copyright,
-.bi-c-circle {
+.copyright {
     font-size: 1em;
     font: 1em sans-serif;
+}
+
+.bi-c-circle {
+    font-size: .8em;
 }

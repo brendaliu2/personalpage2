@@ -41,14 +41,12 @@
   padding-top: 100px;
   padding-bottom: 200px;
   margin-bottom: 200px;
-  /* width: 100vw; */
   font-family: 'Open Sans', sans-serif;
 }
 
-#home{
-  height: 100vh;
+@media(max-width: 996px) {
+  .body{
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
 }
-
-/* #contact-me {
-  height: 100vh;
-} */
