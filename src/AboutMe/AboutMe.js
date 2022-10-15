@@ -22,14 +22,14 @@ export default function AboutMe({ contacts }) {
             <img src={newProfPic} alt='profile-pic' className='prof-pic' />
           </div>
           <div className='col-md-12 col-lg-6'>
-            <div className='row'>
+            <div className='row animate__animated animate__slideInUp'>
               <div className='col big-text-container'>
                 <b className='big-text'>I am a full stack engineer.</b>
               </div>
             </div>
             <div className='row'>
               <div className='col'>
-                <p className='bio'>
+                <p className='bio animate__animated animate__fadeIn'>
                   <br />
                   <br />
                   I graduated from New York University with a BA in Economics, and more recently, I graduated from Rithm School's Full-Stack Web Development Bootcamp.
