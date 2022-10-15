@@ -1,4 +1,3 @@
-
 import './Experience.css';
 
 
@@ -13,21 +12,6 @@ import './Experience.css';
  * App --> Experience
  */
 export default function Experience() {
-
-  const onButtonClick = () => {
-    // using Java Script method to get PDF file
-    fetch('Brenda-Liu-Resume.pdf').then(response => {
-      response.blob().then(blob => {
-        // Creating new object of PDF file
-        const fileURL = window.URL.createObjectURL(blob);
-        // Setting various property values
-        let alink = document.createElement('a');
-        alink.href = fileURL;
-        alink.download = 'Brenda-Liu-Resume.pdf';
-        alink.click();
-      });
-    });
-  };
   return (
     <>
       <div className='container'>
@@ -43,7 +27,7 @@ export default function Experience() {
         <div className='row align-items-center shadow-lg p-5 rounded'>
           <div className='row mt-5'>
             <div className='col'>
-              <button className='btn btn-outline-secondary btn-lg' onClick={onButtonClick}>Download Resume <i class="bi bi-cloud-download-fill"></i></button>
+              <a href='https://drive.google.com/file/d/1Chd6Q9ePw9smczstiQ-KY64ZeewFU439/view' download target="_blank" rel='noreferrer' className='btn btn-outline-secondary btn-lg'>Download Resume <i class="bi bi-cloud-download-fill"></i></a>
             </div>
           </div>
           <div className="container py-5">

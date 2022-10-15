@@ -66,8 +66,8 @@ export default function Project({
           </div>
           <div className="row mt-4">
             <div className="col">
-              <a href={deploy} className='btn btn-outline-secondary deploy m-1'>Demo</a>
-              <a href={github} className='btn btn-outline-secondary github m-1'>Github</a>
+              <a href={deploy} target="_blank" rel='noreferrer' className='btn btn-outline-secondary deploy m-1'>Demo</a>
+              <a href={github} target="_blank" rel='noreferrer' className='btn btn-outline-secondary github m-1'>Github</a>
             </div>
 
           </div>
