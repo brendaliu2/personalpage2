@@ -52,7 +52,7 @@ export default function Project({
             <div className="col">
               <ul className="built-list">
                 Built With:
-                {builtWith.map((name, i) => <li key={i} className='built-name'><i class="bi bi-gear-fill"></i>{name}</li>)}
+                {builtWith.map((name, i) => <li key={i} className='built-name'><i className="bi bi-gear-fill"></i>{name}</li>)}
               </ul>
             </div>
           </div>

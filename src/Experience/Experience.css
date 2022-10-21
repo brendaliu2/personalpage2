@@ -13,7 +13,6 @@
   background-color: #283618;
   top: 0;
   bottom: 0;
-  /* left: 50%; */
   margin-left: -3px;
 }
 
@@ -85,10 +84,6 @@
   background-color: white;
   border: 2px solid #f4acb7;
   border-radius: 20px;
-  /* margin-left:150px; */
-  /* background: linear-gradient(#ff70a6, white 70%); */
-  /* box-shadow: 1px 0px 1px #d5bdaf,0px 1px 1px white,2px 1px 1px #d5bdaf,1px 2px 1px white,3px 2px 1px #d5bdaf,2px 3px 1px white,4px 3px 1px #d5bdaf,3px 4px 1px white,5px 4px 1px #d5bdaf,4px 5px 1px white,6px 5px 1px #d5bdaf; */
-  /* box-shadow: 1px 0px 1px #ff0a54,0px 1px 1px white,2px 1px 1px #ff0a54,1px 2px 1px white,3px 2px 1px #ff0a54,2px 3px 1px white,4px 3px 1px #ff0a54,3px 4px 1px white,5px 4px 1px #ff0a54,4px 5px 1px white,6px 5px 1px #ff0a54; */
 }
 
 .job-card:hover {

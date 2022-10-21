@@ -59,14 +59,14 @@ export default function Projects({ projects }) {
             </div>
             <div className="row">
               <div className="col left-arrow">
-                <button className="arrow-btn" disabled={leftIconHidden} onClick={goBack}>
+                <button className="arrow-btn" type="button" id="left-project" disabled={leftIconHidden} onClick={goBack}>
                   <i
                     className={`bi bi-arrow-left-circle-fill`}
                   />
                 </button>
               </div>
               <div className="col right-arrow">
-                <button className="arrow-btn" disabled={rightIconHidden} onClick={goForward}>
+                <button className="arrow-btn" type="button" id="right-project"disabled={rightIconHidden} onClick={goForward}>
                 <i
                   className={`bi bi-arrow-right-circle-fill`}
                 />

@@ -1,13 +1,10 @@
 import './App.css';
 import NavBar from './Navbar/NavBar';
-import { BrowserRouter } from "react-router-dom";
-import RoutesList from './RoutesList';
 import Projects from './Projects/Projects';
 import Experience from './Experience/Experience';
 import Skills from './Skills/Skills';
 import AboutMe from './AboutMe/AboutMe';
 import ContactMe from './ContactMe/ContactMe';
-import Home from './Home/Home';
 import projectsList from './Projects/projectsList';
 import skillsList from './Skills/skillsList';
 import contacts from './ContactMe/contacts';
@@ -29,51 +26,40 @@ function App() {
   return (
     <div className="App">
       <header>
-        <div>
+        <nav>
           <NavBar />
-        </div>
+        </nav>
       </header>
 
-      {/* <div id='home' className='body'> */}
-      {/* <div id='home' className='body'>
-          <Home />
-        </div> */}
-
-      <div id='about-me' className='body'>
+      <section id='about-me' className='body'>
         <AboutMe contacts={contacts} />
-      </div>
+      </section>
 
-      <div id='projects' className='body'>
+      <section id='projects' className='body'>
         <Projects projects={projectsList} />
-      </div>
+      </section>
 
-      <div id='skills' className='body'>
+      <section id='skills' className='body'>
         <Skills skills={skillsList} />
-      </div>
+      </section>
 
-      <div id='experience' className='body'>
+      <section id='experience' className='body'>
         <Experience />
-      </div>
+      </section>
 
-      <div id='education' className='body'>
+      <section id='education' className='body'>
         <Education />
-      </div>
+      </section>
 
-      <div id='contact-me' className='body'>
+      <section id='contact-me' className='body'>
         <ContactMe contacts={contacts} />
-      </div>
-      {/* </div> */}
+      </section>
 
-      {/* <div id='foot-me' className='body'> */}
-        <Footer />
-      {/* </div> */}
+
+      <Footer />
+
 
     </div>
-
-    // <BrowserRouter>
-    //   <NavBar />
-    //   <RoutesList />
-    // </BrowserRouter>
   );
 }
 

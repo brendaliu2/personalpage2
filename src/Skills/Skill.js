@@ -15,7 +15,7 @@ export default function Skill({ detail }) {
 
   return (
     <>
-      <i class={icon}></i>
+      <i className={icon}></i>
       <p className='skill-name'>{name}</p>
     </>
   );

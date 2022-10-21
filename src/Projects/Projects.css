@@ -41,10 +41,6 @@
 
 /**************************** Arrows *********************************/
 
-/* .bi {
-  font-size: 1.75rem;
-} */
-
 .right-arrow {
   text-align: left;
   position: relative;
@@ -57,20 +53,6 @@
   top: 0;
   transition: top ease 0.5s;
 }
-
-/* .arrow-btn{
-  background-color: #ff70a6;
-  border: none;
-  color: white;
-  border-radius: 60%;
-  box-shadow: 5px 5px black;
-} */
-
-/* .arrow-btn:hover {
-  color: black;
-  background-color: white;
-  transform: translate(1px, 1px);
-} */
 
 .arrow-btn {
   border: 0;
@@ -93,14 +75,6 @@
   transform: translate(3px, 3px);
 }
 
-/* .arrow-btn:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: -5px;
-  bottom: -5px;
-} */
 .arrow-btn:active:after {
   top: -3px;
   left: -3px;

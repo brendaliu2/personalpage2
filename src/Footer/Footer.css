@@ -1,8 +1,8 @@
-.copyright {
-    font-size: 1em;
-    font: 1em sans-serif;
-}
-
 .bi-c-circle {
     font-size: .8em;
+}
+
+footer>p {
+    font-size: 1em;
+    font: 1em sans-serif;
 }
