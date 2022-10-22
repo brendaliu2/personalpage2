@@ -32,3 +32,7 @@
   .education-card:hover{
     transform: translate(1px, 1px);
   }
+
+  .school{
+    font-size: 1.5em;
+  }

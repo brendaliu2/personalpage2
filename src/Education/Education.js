@@ -31,15 +31,15 @@ export default function Education() {
             <Row className='pt-2'>
               <Col sm={12} md={6} className='mb-2'>
                 <div className='education-card'>
-                  <h5><b>Rithm School</b></h5>
-                  <h6><i>Full Stack Engineering Bootcamp</i></h6>
+                  <p className='school'><b>Rithm School</b></p>
+                  <p><i>Full Stack Engineering Bootcamp</i></p>
                   <p>July 2022 - October 2022</p>
                 </div>
               </Col>
               <Col sm={12} md={6}>
                 <div className='education-card'>
-                  <h5><b>New York University</b></h5>
-                  <h6><i>B.A. Economics</i></h6>
+                  <p className='school'><b>New York University</b></p>
+                  <p><i>B.A. Economics</i></p>
                   <p>August 2013 - May 2017</p>
                 </div>
               </Col>
