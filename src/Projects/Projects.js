@@ -61,14 +61,14 @@ export default function Projects({ projects }) {
           </Col>
           <Row>
             <Col className="left-arrow">
-              <button className="arrow-btn" type="button" id="left-project" disabled={leftIconHidden} onClick={goBack}>
+              <button className="arrow-btn" type="button" aria-label="left-project" disabled={leftIconHidden} onClick={goBack}>
                 <i
                   className={`bi bi-arrow-left-circle-fill`}
                 />
               </button>
             </Col>
             <Col className="right-arrow">
-              <button className="arrow-btn" type="button" id="right-project" disabled={rightIconHidden} onClick={goForward}>
+              <button className="arrow-btn" type="button" aria-label="right-project" disabled={rightIconHidden} onClick={goForward}>
                 <i
                   className={`bi bi-arrow-right-circle-fill`}
                 />

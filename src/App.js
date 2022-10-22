@@ -55,9 +55,7 @@ function App() {
         <ContactMe contacts={contacts} />
       </section>
 
-
       <Footer />
-
 
     </div>
   );

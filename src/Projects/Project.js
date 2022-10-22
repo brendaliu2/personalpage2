@@ -69,8 +69,8 @@ export default function Project({
           </Row>
           <Row className="mt-4">
             <Col>
-              <a href={deploy} target="_blank" rel='noreferrer' className='btn btn-outline-secondary deploy m-1'>Demo</a>
-              <a href={github} target="_blank" rel='noreferrer' className='btn btn-outline-secondary github m-1'>Github</a>
+              <a href={deploy} aria-label='view demo' target="_blank" rel='noreferrer' className='btn btn-outline-secondary deploy m-1'>Demo</a>
+              <a href={github} aria-label='view github code' target="_blank" rel='noreferrer' className='btn btn-outline-secondary github m-1'>Github</a>
             </Col>
 
           </Row>
