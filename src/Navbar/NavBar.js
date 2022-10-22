@@ -20,7 +20,7 @@ export default function NavBar() {
 
   return (
     <>
-      <Navbar expand="md" fixed='top' className='nav'>
+      <Navbar expand="lg" fixed='top' className='nav bg-white'>
         <Container>
           <Navbar.Brand href="#home" className='text-dark'>
             <HashLink smooth to="/#about-me" id='nav-brand' className={`${location.hash}` === '#about-me' ? "active" : "inactive"}>
@@ -28,7 +28,7 @@ export default function NavBar() {
             </HashLink>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav" className='bg-white'>
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
             </Nav>
             <Nav>
