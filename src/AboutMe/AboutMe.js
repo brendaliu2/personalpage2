@@ -1,16 +1,16 @@
 import './AboutMe.css';
 import newProfPic from './newProfPic.png';
-
+import ContactIcon from '../ContactMe/ContactIcon';
 
 /** AboutMe: displays profile pic and bio
  *
  * Props:
- * - none
+ * - contacts {github, linkedin, ...}
  *
  * State:
  * - none
  *
- * App --> AboutMe
+ * App --> AboutMe -> ContactIcon
  */
 export default function AboutMe({ contacts }) {
   const { github, linkedin } = contacts;
@@ -47,16 +47,18 @@ export default function AboutMe({ contacts }) {
             <div className='row'>
               <div className='col'></div>
               <div className="col-2 github-link">
-                <a href={github} target="_blank" rel='noreferrer' className='contact-link hover'>
-                  <i className="bi bi-github"></i>
-                  <p className='hover-msg'>Github</p>
-                </a>
+                <ContactIcon
+                  link={github.link}
+                  icon={github.icon}
+                  msg={github.msg}
+                />
               </div>
               <div className="col-2 linkedin-link">
-                <a href={linkedin} target="_blank" rel='noreferrer' className='contact-link hover'>
-                  <i className="bi bi-linkedin"></i>
-                  <p className='hover-msg'>LinkedIn</p>
-                </a>
+                <ContactIcon
+                  link={linkedin.link}
+                  icon={linkedin.icon}
+                  msg={linkedin.msg}
+                />
               </div>
               <div className='col'></div>
             </div>

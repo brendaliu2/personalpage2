@@ -37,7 +37,7 @@ export default function Projects({ projects }) {
         <div className='row title-row'>
           <div className="col"></div>
           <div className='col-md-5'>
-            <h1 className="title">Portfolio</h1>
+            <h2 className="title">Portfolio</h2>
           </div>
           <div className="col"></div>
         </div>

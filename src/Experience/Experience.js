@@ -18,7 +18,7 @@ export default function Experience() {
         <div className='row'>
           <div className='col'></div>
           <div className='col-md-5'>
-            <h1 className="experience-title">Experience</h1>
+            <h2 className="experience-title">Experience</h2>
           </div>
           <div className='col'></div>
         </div>
@@ -27,7 +27,7 @@ export default function Experience() {
         <div className='row align-items-center shadow-lg p-5 rounded'>
           <div className='row mt-5'>
             <div className='col'>
-              <a href='https://drive.google.com/file/d/1Chd6Q9ePw9smczstiQ-KY64ZeewFU439/view' download target="_blank" rel='noreferrer' className='btn btn-outline-secondary btn-lg'>Download Resume <i className="bi bi-cloud-download-fill"></i></a>
+              <a href='https://drive.google.com/file/d/108-Ch66XUvMVsZPFZb6mEJ_UD7nzmbVw/view?usp=sharing' download target="_blank" rel='noreferrer' className='btn btn-outline-secondary btn-lg'>Download Resume <i className="bi bi-cloud-download-fill"></i></a>
             </div>
           </div>
           <div className="container py-5">

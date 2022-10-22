@@ -17,7 +17,7 @@ export default function Education() {
         <div className='row'>
           <div className="col"></div>
           <div className='col-md-5'>
-            <h1 className="title">Education</h1>
+            <h2 className="title">Education</h2>
           </div>
           <div className="col"></div>
         </div>

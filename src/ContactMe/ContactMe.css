@@ -9,6 +9,10 @@
   color: #ff70a6;
 }
 
+.hover-msg{
+  font-size: 1.5em;
+}
+
 .resume-link .hover-msg {
   visibility: hidden;
 }

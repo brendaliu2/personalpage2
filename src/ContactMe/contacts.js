@@ -1,7 +1,19 @@
 const contacts = {
-  github: 'https://github.com/brendaliu2',
-  linkedin: 'https://www.linkedin.com/in/brendaliu/',
-  resume: 'https://drive.google.com/file/d/1Chd6Q9ePw9smczstiQ-KY64ZeewFU439/view'
+  github: {
+    link: 'https://github.com/brendaliu2',
+    icon: 'bi bi-github',
+    msg: 'Github',
+  },
+  linkedin: {
+    link: 'https://www.linkedin.com/in/brendaliu/',
+    icon: 'bi bi-linkedin',
+    msg: 'LinkedIn'
+  },
+  resume: {
+    link: 'https://drive.google.com/file/d/108-Ch66XUvMVsZPFZb6mEJ_UD7nzmbVw/view?usp=sharing',
+    icon: 'bi bi-file-earmark-person',
+    msg: 'Download Resume'
+  }
 };
 
 export default contacts;
