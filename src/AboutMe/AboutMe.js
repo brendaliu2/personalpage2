@@ -22,7 +22,7 @@ export default function AboutMe({ contacts }) {
       <Container className='mt-5'>
         <Row className='align-items-center'>
           <Col md={12} lg={6} className='animate__animated animate__slideInUp'>
-            <img src={newProfPic} alt='profile-pic' className='prof-pic' />
+            <img src={newProfPic2} alt='profile-pic' className='prof-pic' />
           </Col>
           <Col md={12} lg={6}>
             <Row className='animate__animated animate__slideInUp'>
