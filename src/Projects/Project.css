@@ -33,7 +33,14 @@
 
   .built-list {
     text-align: start;
-    list-style: none;
+    /* list-style: none; */
+
+  }
+
+  li {
+    display: list-item;
+    list-style-type: "⚙️";
+    padding-inline-start: 1ch;
   }
 
   .bi-gear-fill,

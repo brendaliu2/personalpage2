@@ -16,9 +16,9 @@
 export default function ContactIcon({ link, icon, msg }) {
   return (
     <>
-        <a href={link} target="_blank" rel='noreferrer' className='contact-link hover'>
+        <a href={link} aria-label={msg} target="_blank" rel='noreferrer' className='contact-link hover'>
           <i className={icon}></i>
-          <p className='hover-msg'>{msg}</p>
+          <p aria-label={msg} className='hover-msg'>{msg}</p>
         </a>
     </>
 
