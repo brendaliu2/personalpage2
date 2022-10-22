@@ -11,6 +11,7 @@ import contacts from './ContactMe/contacts';
 import Education from './Education/Education';
 import Footer from './Footer/Footer';
 import { BrowserRouter } from 'react-router-dom';
+import LightHouse from './LightHouse/LightHouse';
 
 /** Personal Site
  *
@@ -52,6 +53,10 @@ function App() {
 
         <section id='contact-me' className='body'>
           <ContactMe contacts={contacts} />
+        </section>
+
+        <section id='lighthouse' className='body'>
+          <LightHouse/>
         </section>
 
         <Footer />
