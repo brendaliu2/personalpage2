@@ -44,7 +44,7 @@ export default function Project({
 
         <Col sm={12} lg={6} className="name-desc-link">
           <Row className="pt-5">
-            <h4 className="Card-title">{name}</h4>
+            <p className="Card-title">{name}</p>
           </Row>
           <Row>
             <p className="description">{description}</p>
