@@ -19,14 +19,14 @@
   background-color: #ff70a6;
   border-radius: 30px;
   box-shadow: 5px 10px black;
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 
 .big-text-container:hover,
 .prof-pic:hover {
   transform: translate(1px, 1px);
 }
-
 
 .prof-pic {
   width: 30em;

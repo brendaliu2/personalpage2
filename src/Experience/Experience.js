@@ -30,7 +30,7 @@ export default function Experience() {
         <Row className='align-items-center shadow-lg p-5 rounded'>
           <Row className='mt-5'>
             <Col>
-              <a href='https://drive.google.com/file/d/108-Cp6XUvMVsZPFZb6mEJ_UD7nzmbVw/view?usp=sharing' aria-label='download resume' target="_blank" rel='noreferrer' className='btn btn-outline-secondary btn-lg'>Download Resume <i className="bi bi-cloud-download-fill"></i></a>
+              <a href='https://drive.google.com/file/d/108-Cp6XUvMVsZPFZb6mEJ_UD7nzmbVw/view?usp=sharing' aria-label='download resume' target="_blank" rel='noreferrer' className='btn btn-outline-dark btn-lg'>Download Resume <i className="bi bi-cloud-download-fill"></i></a>
             </Col>
           </Row>
           <Container className="py-5">

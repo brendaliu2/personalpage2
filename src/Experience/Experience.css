@@ -144,7 +144,8 @@
   background-color: #ff70a6;
   border-radius: 30px;
   box-shadow: 5px 10px black;
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 
 .timeline-container {
