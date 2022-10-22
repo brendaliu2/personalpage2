@@ -10,6 +10,7 @@ import skillsList from './Skills/skillsList';
 import contacts from './ContactMe/contacts';
 import Education from './Education/Education';
 import Footer from './Footer/Footer';
+import { BrowserRouter } from 'react-router-dom';
 
 /** Personal Site
  *
@@ -25,39 +26,50 @@ function App() {
 
   return (
     <div className="App">
-      <header>
+      {/* <header>
         <nav>
           <NavBar />
         </nav>
-      </header>
+      </header> */}
+      <BrowserRouter>
+        <NavBar />
 
-      <section id='about-me' className='body'>
-        <AboutMe contacts={contacts} />
-      </section>
 
-      <section id='projects' className='body'>
-        <Projects projects={projectsList} />
-      </section>
 
-      <section id='skills' className='body'>
-        <Skills skills={skillsList} />
-      </section>
+        <section id='about-me' className='body'>
+          <AboutMe contacts={contacts} />
+        </section>
 
-      <section id='experience' className='body'>
-        <Experience />
-      </section>
+        <section id='projects' className='body'>
+          <Projects projects={projectsList} />
+        </section>
 
-      <section id='education' className='body'>
-        <Education />
-      </section>
+        <section id='skills' className='body'>
+          <Skills skills={skillsList} />
+        </section>
 
-      <section id='contact-me' className='body'>
-        <ContactMe contacts={contacts} />
-      </section>
+        <section id='experience' className='body'>
+          <Experience />
+        </section>
 
-      <Footer />
+        <section id='education' className='body'>
+          <Education />
+        </section>
+
+        <section id='contact-me' className='body'>
+          <ContactMe contacts={contacts} />
+        </section>
+
+        <Footer />
+
+      </BrowserRouter>
+
+
+
 
     </div>
+
+
   );
 }
 
