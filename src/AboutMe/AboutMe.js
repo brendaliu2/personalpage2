@@ -1,6 +1,10 @@
 import './AboutMe.css';
 import newProfPic from './newProfPic.png';
+import newProfPic2 from './newProfPic-med.jpeg';
 import ContactIcon from '../ContactMe/ContactIcon';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 /** AboutMe: displays profile pic and bio
  *
@@ -15,20 +19,19 @@ import ContactIcon from '../ContactMe/ContactIcon';
 export default function AboutMe({ contacts }) {
   const { github, linkedin } = contacts;
   return (
-    <div id='about-me'>
-      <div className='container mt-5'>
-        <div className='row align-items-center'>
-          <div className='col-md-12 col-lg-6'>
+      <Container className='mt-5'>
+        <Row className='align-items-center'>
+          <Col md={12} lg={6} className='animate__animated animate__slideInUp'>
             <img src={newProfPic} alt='profile-pic' className='prof-pic' />
-          </div>
-          <div className='col-md-12 col-lg-6'>
-            <div className='row animate__animated animate__slideInUp'>
-              <div className='col big-text-container'>
+          </Col>
+          <Col md={12} lg={6}>
+            <Row className='animate__animated animate__slideInUp'>
+              <Col className='big-text-container'>
                 <b className='big-text'>I am a full stack engineer.</b>
-              </div>
-            </div>
-            <div className='row'>
-              <div className='col'>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
                 <p className='bio animate__animated animate__fadeIn'>
                   <br />
                   <br />
@@ -41,30 +44,29 @@ export default function AboutMe({ contacts }) {
                   <br />
                   I hope to find an enviornment where I can keep developing my engineering skillset as well as apply some problem-solving skills from my previous positions.
                 </p>
-              </div>
-            </div>
+              </Col>
+            </Row>
 
-            <div className='row'>
-              <div className='col'></div>
-              <div className="col-2 github-link">
+            <Row>
+              <Col></Col>
+              <Col xs={2} className="github-link animate__animated animate__fadeIn">
                 <ContactIcon
                   link={github.link}
                   icon={github.icon}
                   msg={github.msg}
                 />
-              </div>
-              <div className="col-2 linkedin-link">
+              </Col>
+              <Col className="linkedin-link animate__animated animate__fadeIn">
                 <ContactIcon
                   link={linkedin.link}
                   icon={linkedin.icon}
                   msg={linkedin.msg}
                 />
-              </div>
-              <div className='col'></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div >
+              </Col>
+              <Col></Col>
+            </Row>
+          </Col>
+        </Row>
+      </Container>
   );
 }

@@ -1,4 +1,7 @@
 import './Education.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 /** Education
  *
@@ -13,38 +16,38 @@ import './Education.css';
 export default function Education() {
   return (
     <>
-      <div className='container'>
-        <div className='row'>
-          <div className="col"></div>
-          <div className='col-md-5'>
+      <Container>
+        <Row>
+          <Col></Col>
+          <Col md={5}>
             <h2 className="title">Education</h2>
-          </div>
-          <div className="col"></div>
-        </div>
-      </div>
-      <div className='container education-box'>
-        <div className='row align-items-center shadow-lg p-5 rounded'>
-          <div className='col'>
-            <div className='row pt-2'>
-              <div className='col-sm-12 col-md-6 mb-2'>
+          </Col>
+          <Col></Col>
+        </Row>
+      </Container>
+      <Container className='education-box'>
+        <Row className='align-items-center shadow-lg p-5 rounded'>
+          <Col>
+            <Row className='pt-2'>
+              <Col sm={12} md={6} className='mb-2'>
                 <div className='education-card'>
                   <h4><b>Rithm School</b></h4>
                   <h5><i>Full Stack Engineering Bootcamp</i></h5>
                   <h5>July 2022 - October 2022</h5>
                 </div>
-              </div>
-              <div className='col-sm-12 col-md-6'>
+              </Col>
+              <Col sm={12} md={6}>
                 <div className='education-card'>
                   <h4><b>New York University</b></h4>
                   <h5><i>B.A. Economics</i></h5>
                   <h5>August 2013 - May 2017</h5>
                 </div>
-              </div>
-            </div>
-          </div>
+              </Col>
+            </Row>
+          </Col>
 
-        </div>
-      </div>
+        </Row>
+      </Container>
     </>
   );
 }

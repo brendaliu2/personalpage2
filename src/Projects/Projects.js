@@ -1,6 +1,9 @@
 import { useState } from "react";
 import "./Projects.css";
 import Project from "./Project";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 /** Carousel: displays projects and arrows to navigate through them
  *
@@ -32,50 +35,48 @@ export default function Projects({ projects }) {
   }
 
   return (
-    <div className="Carousel">
-      <div className='container-fluid'>
-        <div className='row title-row'>
-          <div className="col"></div>
-          <div className='col-md-5'>
+    <>
+      <Container fluid>
+        <Row className='title-row'>
+          <Col></Col>
+          <Col md={5}>
             <h2 className="title">Portfolio</h2>
-          </div>
-          <div className="col"></div>
-        </div>
-      </div>
-      <div className="Carousel-main">
-        <div className="container-fluid">
-          <div className="row align-items-center">
-            <div className="col-xs-12 project-card">
-              <Project
-                name={currCard.name}
-                deploy={currCard.deploy}
-                github={currCard.github}
-                description={currCard.description}
-                builtWith={currCard.builtWith}
-                currNum={currCardIdx + 1}
-                totalNum={total}
-                image={currCard.image}
-              />
-            </div>
-            <div className="row">
-              <div className="col left-arrow">
-                <button className="arrow-btn" type="button" id="left-project" disabled={leftIconHidden} onClick={goBack}>
-                  <i
-                    className={`bi bi-arrow-left-circle-fill`}
-                  />
-                </button>
-              </div>
-              <div className="col right-arrow">
-                <button className="arrow-btn" type="button" id="right-project"disabled={rightIconHidden} onClick={goForward}>
+          </Col>
+          <Col></Col>
+        </Row>
+      </Container>
+      <Container fluid>
+        <Row className="align-items-center">
+          <Col xs={12} className="project-card">
+            <Project
+              name={currCard.name}
+              deploy={currCard.deploy}
+              github={currCard.github}
+              description={currCard.description}
+              builtWith={currCard.builtWith}
+              currNum={currCardIdx + 1}
+              totalNum={total}
+              image={currCard.image}
+            />
+          </Col>
+          <Row>
+            <Col className="left-arrow">
+              <button className="arrow-btn" type="button" id="left-project" disabled={leftIconHidden} onClick={goBack}>
+                <i
+                  className={`bi bi-arrow-left-circle-fill`}
+                />
+              </button>
+            </Col>
+            <Col className="right-arrow">
+              <button className="arrow-btn" type="button" id="right-project" disabled={rightIconHidden} onClick={goForward}>
                 <i
                   className={`bi bi-arrow-right-circle-fill`}
                 />
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+              </button>
+            </Col>
+          </Row>
+        </Row>
+      </Container>
+    </>
   );
 }

@@ -1,4 +1,7 @@
 import "./Project.css";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 /** Card: displays project.
  *
@@ -35,47 +38,47 @@ export default function Project({
   const fill5 = currNum === 5 ? "-fill" : "";
 
   return (
-    <div className="container card-container">
+    <Container className="container card-container">
 
-      <div className="Card row align-items-center shadow-lg mb-5 rounded">
+      <Row className="Card align-items-center shadow-lg mb-5 rounded">
 
-        <div className="col-sm-12 col-lg-6 name-desc-link">
-          <div className="row pt-5">
+        <Col sm={12} lg={6} className="name-desc-link">
+          <Row className="pt-5">
             <h4 className="Card-title">{name}</h4>
-          </div>
-          <div className="row">
+          </Row>
+          <Row>
             <p className="description">{description}</p>
-          </div>
-          <div className="row">
-          </div>
-          <div className="row">
-            <div className="col">
+          </Row>
+          <Row>
+          </Row>
+          <Row>
+            <Col>
               <ul className="built-list">
                 Built With:
                 {builtWith.map((name, i) => <li key={i} className='built-name'><i className="bi bi-gear-fill"></i>{name}</li>)}
               </ul>
-            </div>
-          </div>
-        </div>
+            </Col>
+          </Row>
+        </Col>
 
-        <div className="col-sm-12 col-lg-6 built-with-col">
-          <div className="row mb-3 pad-adjust">
-            <div className="col justify-content-center">
+        <Col sm={12} lg={6} className="built-with-col">
+          <Row className="mb-3 pad-adjust">
+            <Col className="justify-content-center">
               <img src={image} alt='project' className="demo-image" />
-            </div>
-          </div>
-          <div className="row mt-4">
-            <div className="col">
+            </Col>
+          </Row>
+          <Row className="mt-4">
+            <Col>
               <a href={deploy} target="_blank" rel='noreferrer' className='btn btn-outline-secondary deploy m-1'>Demo</a>
               <a href={github} target="_blank" rel='noreferrer' className='btn btn-outline-secondary github m-1'>Github</a>
-            </div>
+            </Col>
 
-          </div>
+          </Row>
 
-        </div>
-      </div>
-      <div className="row align-items-center">
-        <div className="col justify-content-center">
+        </Col>
+      </Row>
+      <Row className="align-items-center">
+        <Col className="justify-content-center">
           <small className="Card-small">
             <i className={`bi bi-circle${fill1}`}></i>
             <i className={`bi bi-circle${fill2}`}></i>
@@ -83,8 +86,8 @@ export default function Project({
             <i className={`bi bi-circle${fill4}`}></i>
             <i className={`bi bi-circle${fill5}`}></i>
           </small>
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
 }

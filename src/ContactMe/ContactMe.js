@@ -1,5 +1,8 @@
 import './ContactMe.css';
 import ContactIcon from './ContactIcon';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 /** ContactMe: displays contact links
  *
@@ -15,48 +18,49 @@ export default function ContactMe({ contacts }) {
   const { github, linkedin, resume } = contacts;
 
   return (
-    <div className="container">
-      <div className="row m-5">
-        <div className='col'></div>
-        <div className='col-md-5'>
+    <Container>
+
+      <Row className="m-5">
+        <Col></Col>
+        <Col md={5}>
           <h2 className="p-3 contact-title">Contact me</h2>
-        </div>
-        <div className='col'></div>
-      </div>
+        </Col>
+        <Col></Col>
+      </Row>
 
-      <div className="row m-5">
-        <div className='col'></div>
-        <div className='col'></div>
-      </div>
+      <Row className="m-5">
+        <Col></Col>
+        <Col></Col>
+      </Row>
 
-      <div className="row">
-        <div className='col-md-3'></div>
-        <div className="col resume-link">
+      <Row>
+        <Col md={3}></Col>
+        <Col className="resume-link">
           <ContactIcon
           link={resume.link}
           icon={resume.icon}
           msg={resume.msg}
           />
-        </div>
+        </Col>
 
-        <div className="col github-link">
+        <Col className="github-link">
           <ContactIcon
           link={github.link}
           icon={github.icon}
           msg={github.msg}
           />
-        </div>
+        </Col>
 
-        <div className="col linkedin-link">
+        <Col className="linkedin-link">
           <ContactIcon
           link={linkedin.link}
           icon={linkedin.icon}
           msg={linkedin.msg}
           />
-        </div>
-        <div className='col-md-3'></div>
-      </div>
+        </Col>
+        <Col md={3}></Col>
+      </Row>
 
-    </div>
+    </Container>
   );
 }

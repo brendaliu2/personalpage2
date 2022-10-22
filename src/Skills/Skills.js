@@ -1,5 +1,8 @@
 import Skill from './Skill';
 import './Skills.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Accordion from 'react-bootstrap/Accordion';
 
 /** Skills
@@ -17,20 +20,20 @@ export default function Skills({ skills }) {
 
   return (
     <>
-      <div className='container-fluid'>
-        <div className='row'>
-          <div className='col'></div>
-          <div className='col-md-5'>
+      <Container fluid>
+        <Row className='row'>
+          <Col></Col>
+          <Col md={5}>
             <h2 className='skills-heading'>Skills</h2>
-          </div>
-          <div className='col'></div>
-        </div>
-      </div>
-      <div className='container-fluid skills-container'>
-        <div className='row'>
-          <div className='col'></div>
-          <div className='col-md-10'>
-            <div className='row align-items-center shadow-lg p-5 mb-5 rounded skills-row'>
+          </Col>
+          <Col></Col>
+        </Row>
+      </Container>
+      <Container fluid className='skills-container'>
+        <Row>
+          <Col></Col>
+          <Col md={10}>
+            <Row className='align-items-center shadow-lg p-5 mb-5 rounded skills-row'>
               <Accordion defaultActiveKey="0" >
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>Languages</Accordion.Header>
@@ -45,7 +48,6 @@ export default function Skills({ skills }) {
                   <Accordion.Body>
                     <div className='flex-container'>
                       {Frameworks.map((frame, i) => <div key={i} className="grid-item"><Skill detail={frame} /></div>)}
-                      {/* <img src={jasmineSVG} className="grid-item jasmine" alt="jasmine icon" /> */}
                     </div>
                   </Accordion.Body>
                 </Accordion.Item>
@@ -58,12 +60,12 @@ export default function Skills({ skills }) {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
-            </div>
-          </div>
-          <div className='col'></div>
-        </div>
+            </Row>
+          </Col>
+          <Col></Col>
+        </Row>
 
-      </div>
+      </Container>
     </>
   );
 }
