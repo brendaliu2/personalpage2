@@ -25,16 +25,10 @@ import { BrowserRouter } from 'react-router-dom';
 function App() {
 
   return (
-    <div className="App">
-      {/* <header>
-        <nav>
-          <NavBar />
-        </nav>
-      </header> */}
+    <main className="App">
       <BrowserRouter>
+
         <NavBar />
-
-
 
         <section id='about-me' className='body'>
           <AboutMe contacts={contacts} />
@@ -64,10 +58,7 @@ function App() {
 
       </BrowserRouter>
 
-
-
-
-    </div>
+    </main>
 
 
   );
