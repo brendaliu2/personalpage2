@@ -10,7 +10,6 @@ import skillsList from './Skills/skillsList';
 import contacts from './ContactMe/contacts';
 import Education from './Education/Education';
 import Footer from './Footer/Footer';
-import { BrowserRouter } from 'react-router-dom';
 import LightHouse from './LightHouse/LightHouse';
 
 /** Personal Site
@@ -27,11 +26,10 @@ function App() {
 
   return (
     <main className="App">
-      <BrowserRouter>
 
         <NavBar />
 
-        <section id='about-me' className='body'>
+        <section id='home' className='body'>
           <AboutMe contacts={contacts} />
         </section>
 
@@ -55,16 +53,13 @@ function App() {
           <ContactMe contacts={contacts} />
         </section>
 
-        <section id='lighthouse' className='body'>
+        {/* <section id='lighthouse' className='body'>
           <LightHouse/>
-        </section>
+        </section> */}
 
         <Footer />
 
-      </BrowserRouter>
-
     </main>
-
 
   );
 }
