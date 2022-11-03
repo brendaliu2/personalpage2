@@ -21,14 +21,14 @@ export default function NavBar() {
       <Navbar expand="lg" fixed='top' className='nav bg-white'>
         <Container>
           <Navbar.Brand href="#home" className='text-dark'>
-            <Link activeClass="active" hashSpy={true} to="home" id='nav-link' spy={true}>Brenda Liu</Link>
+            <Link activeClass="active" to="home" id='nav-link' spy={true}>Brenda Liu</Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
             </Nav>
             <Nav>
-              <Link activeClass="active" hashSpy={true} to="home" id='nav-link' spy={true}>
+              <Link activeClass="active" to="home" id='nav-link' spy={true}>
                 Home
               </Link>
               <Link activeClass="active" hashSpy={true} to="projects" id='nav-link' spy={true}>
