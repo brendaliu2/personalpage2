@@ -1,24 +1,10 @@
-# Personal Site
+# 🐰 Personal Site
 
-Created with React.
-Sections for:
-* About Me
-* Projects
-* Skills
-* Experience
-* Education
-* Contact Me
+- responsive portfolio site built with react
 
-## Run on your machine
+[Check it out](www.brenda-liu.com)
 
-```
-git clone https://github.com/brendaliu2/personalpage2.git
-`npm start` set to port 3000
-```
+![PersonalSiteDemoGif](https://user-images.githubusercontent.com/104796562/199828612-7cdaa55b-e893-49b7-b425-5caa43fe520b.gif)
 
-
-## Future Features to Add
-
-* Light/Dark Mode
-* React Styled Components
-
+### Lighthouse Metrics
+<img width="850" alt="lighthouse" src="https://user-images.githubusercontent.com/104796562/199828666-6eada078-92cb-40d0-9e8f-e41983343357.png">
