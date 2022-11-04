@@ -10,7 +10,6 @@ import skillsList from './Skills/skillsList';
 import contacts from './ContactMe/contacts';
 import Education from './Education/Education';
 import Footer from './Footer/Footer';
-import LightHouse from './LightHouse/LightHouse';
 
 /** Personal Site
  *
@@ -20,7 +19,7 @@ import LightHouse from './LightHouse/LightHouse';
  * State:
  * - none
  *
- * App --> {Home, NavBar, AboutMe, Projects, Skills, Experience, ContactMe}
+ * App --> {NavBar, AboutMe, Projects, Skills, Experience, ContactMe}
  */
 function App() {
 
@@ -52,10 +51,6 @@ function App() {
         <section id='contact-me' className='body'>
           <ContactMe contacts={contacts} />
         </section>
-
-        {/* <section id='lighthouse' className='body'>
-          <LightHouse/>
-        </section> */}
 
         <Footer />
 
