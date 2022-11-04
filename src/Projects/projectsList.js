@@ -3,6 +3,7 @@ import JoblyDemoGif from '../demos/JoblyDemoGif.gif';
 import WarblerDemoGif from '../demos/WarblerDemoGif.gif';
 import BlueberryDemoGif from '../demos/BlueberryDemoGif.gif';
 import PersonalSiteDemoGif from '../demos/PersonalSiteDemoGif.gif';
+import FoqalDemoGif from '../demos/FoqalDemoGif.gif';
 
 
 const projects = [
